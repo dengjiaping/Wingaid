@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

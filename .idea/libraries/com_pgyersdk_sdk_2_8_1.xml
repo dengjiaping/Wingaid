@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.pgyersdk:sdk-2.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

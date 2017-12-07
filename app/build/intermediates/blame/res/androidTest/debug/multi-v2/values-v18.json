@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

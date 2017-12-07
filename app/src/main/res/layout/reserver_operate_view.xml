@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/padding_margin_4"
+        android:layout_marginRight="@dimen/padding_margin_4"
+        android:background="@drawable/addpopbac"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvResDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_4"
+            android:paddingTop="@dimen/padding_margin_4"
+            android:text="@string/add"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/tv_size_12" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/search_edit_bac" />
+
+        <EditText
+            android:id="@+id/etReserTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/selectdatetime"
+            android:paddingBottom="@dimen/padding_margin_10"
+            android:paddingLeft="@dimen/padding_margin_6"
+            android:paddingTop="@dimen/padding_margin_10"
+            android:textColor="#ff0000"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/tv_size_12"
+            android:inputType="none"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/search_edit_bac" />
+
+        <EditText
+            android:id="@+id/etRemindTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/reminder"
+            android:paddingBottom="@dimen/padding_margin_10"
+            android:paddingLeft="@dimen/padding_margin_6"
+            android:paddingTop="@dimen/padding_margin_10"
+            android:textColor="#0000ff"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/tv_size_12"
+            android:inputType="none"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/search_edit_bac" />
+
+        <TextView
+            style="@style/WrapWrap"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:layout_marginTop="@dimen/padding_margin_6"
+            android:text="@string/remark"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_12" />
+
+        <EditText
+            android:id="@+id/etRemarkContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:layout_marginRight="@dimen/padding_margin_4"
+            android:layout_marginTop="@dimen/padding_margin_6"
+            android:background="@drawable/edittext_yuyue_bac"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <TextView
+            android:id="@+id/tvSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_4"
+            android:background="@drawable/pop_button_bac"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_8"
+            android:paddingTop="@dimen/padding_margin_8"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12" />
+    </LinearLayout>
+</LinearLayout>

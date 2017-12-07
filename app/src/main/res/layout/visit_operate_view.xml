@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/padding_margin_4"
+        android:layout_marginRight="@dimen/padding_margin_4"
+        android:background="@drawable/addpopbac"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvVisitTile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_10"
+            android:paddingTop="@dimen/padding_margin_10"
+            android:text="@string/add"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/tv_size_12" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/search_edit_bac" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etVistTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:background="@drawable/editbac"
+                android:hint="@string/writetitle"
+                android:layout_marginLeft="@dimen/padding_margin_4"
+                android:paddingBottom="@dimen/padding_margin_8"
+                android:paddingLeft="@dimen/padding_margin_6"
+                android:paddingTop="@dimen/padding_margin_8"
+                android:textColor="#ff0000"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/tv_size_12" />
+
+            <TextView
+                android:id="@+id/tvVisitTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:paddingRight="@dimen/padding_margin_4"
+                android:paddingTop="@dimen/padding_margin_8"
+                android:paddingBottom="@dimen/padding_margin_8"
+                android:gravity="center_vertical|right"
+                android:text="@string/time"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/padding_margin_12"/>
+        </LinearLayout>
+
+        <!-- <View
+             android:layout_width="match_parent"
+             android:layout_height="0.5dp"
+             android:background="@color/shallow_gray" />
+
+         <TextView
+             style="@style/WrapWrap"
+             android:layout_marginLeft="@dimen/padding_margin_4"
+             android:layout_marginTop="@dimen/padding_margin_4"
+             android:text="备注"
+             android:textColor="@color/black"
+             android:textSize="@dimen/tv_size_12" />-->
+
+        <EditText
+            android:id="@+id/etVistContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:layout_marginRight="@dimen/padding_margin_4"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:textSize="@dimen/tv_size_12"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_yuyue_bac"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/tvVisitSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/pop_button_bac"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_8"
+            android:paddingTop="@dimen/padding_margin_8"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch"
+    android:background="@color/white">
+
+    <FrameLayout style="@style/MatchMatch">
+
+        <com.yd.org.sellpopularizesystem.viewpage.HackyViewPager
+            android:id="@+id/viewPager"
+            style="@style/MatchMatch" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:id="@+id/vp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.yd.org.sellpopularizesystem.myView.ExpandView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/home_custom">
+
+            <ImageView
+                android:id="@+id/ivTrangle"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginTop="-10dp"
+                android:gravity="top"
+                android:scaleType="centerInside"
+                android:src="@mipmap/up_arrow" />
+
+        </com.yd.org.sellpopularizesystem.myView.ExpandView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="@dimen/padding_margin_35"
+        android:layout_height="@dimen/padding_margin_35"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:scaleType="centerInside"
+        android:src="@mipmap/backbtcircle" />
+
+    <!--<LinearLayout
+        android:id="@+id/vp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/reansoarent_oneoftwo"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:layerType="software"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/ivTrangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:src="@mipmap/up_arrow"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpagers"
+            android:layout_width="@dimen/padding_margin_100"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+             />
+    </LinearLayout>-->
+
+
+</RelativeLayout>

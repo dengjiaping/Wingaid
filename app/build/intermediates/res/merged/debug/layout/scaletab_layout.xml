@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#00000000"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btLocation"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/padding_margin_4"
+            android:drawableRight="@mipmap/downmore"
+            android:background="@drawable/tab_select"
+            android:textColor="@color/black"
+            android:text="@string/localarea"
+            android:maxLines="1"
+            android:textSize="@dimen/tv_size_10"/>
+
+        <Button
+            android:id="@+id/btHouseType"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/padding_margin_6"
+            android:drawableRight="@mipmap/downmore"
+            android:background="@drawable/tab_select"
+            android:text="@string/housetype"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="@dimen/tv_size_10"/>
+
+        <Button
+            android:id="@+id/btArea"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/padding_margin_6"
+            android:drawableRight="@mipmap/downmore"
+            android:background="@drawable/tab_select"
+            android:text="@string/area"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="@dimen/tv_size_10"/>
+
+        <Button
+            android:id="@+id/btPriceRange"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:drawableRight="@mipmap/downmore"
+            android:background="@drawable/tab_select"
+            android:layout_marginLeft="@dimen/padding_margin_6"
+            android:paddingLeft="@dimen/padding_margin_4"
+            android:text="@string/rangeprice"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="@dimen/tv_size_10"/>
+
+
+</LinearLayout>

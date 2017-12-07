@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch"
+              android:background="@color/search_edit_bac"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/changePassWordRel"
+            style="@style/MatchWrap"
+            android:layout_marginTop="@dimen/padding_margin_20"
+            android:background="@drawable/button_back">
+
+            <TextView
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/change"
+                android:padding="@dimen/padding_margin_16"
+                android:text="@string/version_info"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+
+            <TextView
+                android:id="@+id/versionTv"
+                style="@style/WrapWrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:text="@string/ver_1_0_0"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/MatchWrap"
+            android:layout_marginTop="@dimen/padding_margin_20"
+            android:background="@drawable/button_back"
+            android:padding="@dimen/padding_margin_16"
+            android:text="@string/about_us"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:layout_marginTop="@dimen/padding_margin_40"
+        android:background="@drawable/button_back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cancelLoginTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/padding_margin_10"
+            android:text="@string/setting_cancellogin"
+            android:textColor="@color/home_custom"
+            android:textSize="@dimen/tv_size_15"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

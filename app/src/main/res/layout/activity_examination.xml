@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_examination"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/setting_bac" />
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/views">
+
+        <LinearLayout
+            android:id="@+id/examinaltionLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+
+    <View
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/examinationBottomLayout"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:background="@color/gray">
+
+    </View>
+
+
+    <LinearLayout
+        android:id="@+id/examinationBottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_margin_50"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/submit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_50"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/skip"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

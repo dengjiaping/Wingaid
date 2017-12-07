@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llMore"
+        style="@style/MatchWrap"
+        android:layout_marginLeft="@dimen/padding_margin_35"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_margin_8">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvPriceRange"
+            style="@style/WrapWrap"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_12"/>
+
+
+        <LinearLayout
+            style="@style/WrapWrap"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/padding_margin_4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivHouse"
+                style="@style/WrapWrap"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/bedroom"/>
+
+            <TextView
+                android:id="@+id/tvHouse"
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/padding_margin_6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <ImageView
+                android:id="@+id/ivBathroom"
+                style="@style/WrapWrap"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_margin_6"
+                android:src="@mipmap/shower"/>
+
+            <TextView
+                android:id="@+id/tvBathroom"
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/padding_margin_6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <ImageView
+                android:id="@+id/ivCar"
+                style="@style/WrapWrap"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_margin_6"
+                android:src="@mipmap/car"/>
+
+            <TextView
+                android:id="@+id/tvCar"
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/padding_margin_6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

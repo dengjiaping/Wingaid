@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/studyDisImageView"
+            style="@style/MatchMatch"
+            android:scaleType="centerCrop"
+           />
+
+
+        <LinearLayout
+            android:id="@+id/examineLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/reansoarent_oneoftwo"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                style="@style/AutoMatch"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_weight="1"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/studyTextView"
+                    style="@style/MatchWrap"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_15"/>
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    style="@style/MatchWrap"
+                    android:layout_below="@id/studyTextView"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_10"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/AutoMatch"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/resultsTextView"
+                    style="@style/AutoMatch"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/check_results"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/padding_margin_12"
+                    android:layout_marginTop="@dimen/padding_margin_12"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:id="@+id/examTextView"
+                    style="@style/AutoMatch"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/check_exam"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/lockImageView"
+            style="@style/WrapWrap"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@mipmap/lock"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

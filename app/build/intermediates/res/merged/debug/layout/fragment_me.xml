@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch"
+    android:background="@color/search_edit_bac"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        style="@style/MatchMatch"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@mipmap/bac"
+            android:orientation="vertical">
+
+            <com.yd.org.sellpopularizesystem.myView.CircleImageView
+                android:id="@+id/ivCustomePhoto"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/padding_margin_30"
+                android:src="@mipmap/settingbt"/>
+
+            <TextView
+                android:id="@+id/tvCustomeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/padding_margin_4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <TextView
+                android:id="@+id/tvQr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/padding_margin_4"
+                android:layout_marginTop="@dimen/padding_margin_4"
+                android:background="@mipmap/meqr"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:text="@string/my_invite_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_10"/>
+        </LinearLayout>
+
+
+        <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_back"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/changePassWordRel"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/change"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/changepassword"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/change"
+                            android:text="@string/setting_changepassword"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/padding_margin_50"
+                        android:background="@color/shallow_gray"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/bindAccountRel"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/bind"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/bindaccount"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/bind"
+                            android:text="@string/setting_bindaccount"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/padding_margin_50"
+                        android:background="@color/shallow_gray"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/relCertificate"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/myCertificate"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/certificate"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/myCertificate"
+                            android:text="@string/myinfo"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:background="@drawable/button_back"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/saleRecord"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/sale"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/salarecord"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/sale"
+                            android:text="@string/sale_record"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/padding_margin_50"
+                        android:background="@color/shallow_gray"/>
+
+                    <RelativeLayout
+                        android:id="@+id/saleEOI"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/eoi"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/eoi_s"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/eoi"
+                            android:text="@string/eoi_"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/padding_margin_50"
+                        android:background="@color/shallow_gray"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rlCommission"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/commission"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/mycommission"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/commission"
+                            android:text="@string/mycommission"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+                        <TextView
+                            android:id="@+id/tvDepositCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/padding_margin_4"
+                            android:background="@drawable/circle_shape"
+                            android:gravity="center"
+                            android:text="@string/_99"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/tv_size_10"
+                            android:visibility="gone"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/padding_margin_50"
+                        android:background="@color/shallow_gray"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rlTeam"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/myteam"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/myteam"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/myteam"
+                            android:text="@string/myteam"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:background="@drawable/button_back"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rlSetting"
+                        style="@style/MatchWrap"
+                        android:padding="@dimen/padding_margin_12">
+
+                        <ImageView
+                            android:id="@+id/ivSetting"
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:src="@mipmap/setting"/>
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/padding_margin_10"
+                            android:layout_toRightOf="@+id/ivSetting"
+                            android:text="@string/setting"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_15"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+    </LinearLayout>
+</LinearLayout>

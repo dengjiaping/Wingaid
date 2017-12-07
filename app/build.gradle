@@ -1,0 +1,122 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.yd.org.sellpopularizesystem"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 20171206
+        versionName "1.11.0"
+
+        //个推配置文件
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "vyh75woAJs5tv7iz3fHoh4",
+                GETUI_APP_KEY   : "nvFs64bF0a9AfmMzlfP2r5",
+                GETUI_APP_SECRET: "urxKlbbHjR6FVpqd3OSvB2",
+                PACKAGE_NAMW    : applicationId
+        ]
+        multiDexEnabled true
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('./keystore/sellpopularizesystem.jks')
+            keyAlias 'Wingaid'
+            keyPassword '123456'
+            storePassword '123456'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['jniLibs']
+        }
+    }
+
+    buildTypes {
+        release {
+            // release模式下，不显示log
+            buildConfigField("boolean", "LOG_DEBUG", "false")
+            // 为版本名添加后缀
+            versionNameSuffix "-relase"
+            // 不开启混淆
+            minifyEnabled false
+            // 开启ZipAlign优化
+            zipAlignEnabled true
+            // 混淆文件位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            // debug模式下，显示log
+            buildConfigField("boolean", "LOG_DEBUG", "true")
+            // 不开启混淆
+            minifyEnabled false
+            // 不开启ZipAlign优化
+            zipAlignEnabled false
+            // 不移除无用的resource文件
+            shrinkResources false
+            signingConfig signingConfigs.release
+
+
+        }
+    }
+
+    lintOptions {
+        //即使有lint报错也不停止打包
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    compile project(':photopicker')
+    compile project(':rxeasyhttp')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //拼音排序
+    compile files('libs/pinyin4j-2.5.0.jar')
+    //微信
+    compile files('libs/SocialSDK_WeiXin_Full.jar')
+    //微信
+    compile files('libs/SocialSDK_WeChat_Simplify.jar')
+    //facebook
+    compile files('libs/SocialSDK_facebook.jar')
+    //友盟分享
+    compile files('libs/umeng_shareboard_widget.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng_social_shareview.jar')
+    compile files('libs/umeng_social_tool.jar')
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.contrarywind:Android-PickerView:3.2.4'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.davidpizarro:pickerui:1.0.1'
+    compile 'se.emilsjolander:stickylistheaders:2.7.0'
+    compile 'com.jude:rollviewpager:1.4.6'
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.4'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.getui:sdk:2.10.2.0'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.8.2@aar'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.barteksc:android-pdf-viewer:2.7.0-beta.1'
+    compile 'com.alibaba:fastjson:1.2.38'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.pgyersdk:sdk:2.8.1'
+
+
+}

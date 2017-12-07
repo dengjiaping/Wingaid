@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/res/raw/keep.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/res/raw/keep.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/res/raw/keep.xml"
+    }
+]

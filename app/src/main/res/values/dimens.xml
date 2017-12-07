@@ -1,0 +1,83 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 标题大小 -->
+    <dimen name="title_tv_size">18sp</dimen>
+    <!-- 主字体大小 -->
+    <dimen name="one_tv_size">16sp</dimen>
+    <!-- 副字体大小 -->
+    <dimen name="two_tv_size">14sp</dimen>
+    <dimen name="tv_size_08">8sp</dimen>
+    <dimen name="tv_size_10">10sp</dimen>
+    <dimen name="tv_size_12">12sp</dimen>
+    <dimen name="tv_size_13">13sp</dimen>
+    <dimen name="tv_size_15">15sp</dimen>
+    <dimen name="tv_size_18">18sp</dimen>
+    <dimen name="tv_size_20">20sp</dimen>
+    <dimen name="tv_size_22">22sp</dimen>
+    <!-- 间距 -->
+    <dimen name="page_margin_width">0dp</dimen>
+    <dimen name="padding_margin_2">2dp</dimen>
+    <dimen name="padding_margin_4">4dp</dimen>
+    <dimen name="padding_margin_6">6dp</dimen>
+    <dimen name="padding_margin_8">8dp</dimen>
+    <dimen name="padding_margin_10">10dp</dimen>
+    <dimen name="padding_margin_12">12dp</dimen>
+    <dimen name="padding_margin_14">14dp</dimen>
+    <dimen name="padding_margin_16">16dp</dimen>
+    <dimen name="padding_margin_18">18dp</dimen>
+    <dimen name="padding_margin_20">20dp</dimen>
+    <dimen name="padding_margin_22">22dp</dimen>
+    <dimen name="padding_margin_35">35dp</dimen>
+    <dimen name="padding_margin_30">30dp</dimen>
+    <dimen name="padding_margin_40">40dp</dimen>
+    <dimen name="padding_margin_50">50dp</dimen>
+    <dimen name="padding_margin_100">100dp</dimen>
+    <dimen name="padding_margin_150">150dp</dimen>
+    <dimen name="padding_margin_180">180dp</dimen>
+    <dimen name="padding_margin_200">200dp</dimen>
+    <!-- MEDIA CONTROLLER -->
+    <dimen name="media_controller_seekbar_width">32dip</dimen>
+    <dimen name="media_controller_seekbar_height">32dip</dimen>
+    <dimen name="media_controller_top_margin">80dip</dimen>
+    <dimen name="media_controller_bottom_margin">12dip</dimen>
+    <dimen name="media_controller_view_height">40dip</dimen>
+    <dimen name="media_controller_button_height">52dip</dimen>
+    <dimen name="media_controller_button_width">71dip</dimen>
+    <!--客户管理-->
+    <dimen name="bladeview_popup_height">80dp</dimen>
+    //
+    <!-- body content -->
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xlarge2">20sp</dimen>
+    <dimen name="speaker_image_size">36dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="vendor_image_size">100dp</dimen>
+
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+    <dimen name="action_text_size" >16sp</dimen>
+
+    <!-- 弹框所需 -->
+    <!-- 窗口最小宽度 -->
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <!-- padding -->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <!-- 圆角 -->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+
+
+</resources>

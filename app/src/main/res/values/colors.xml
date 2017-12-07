@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="white">#ffffffff</color>
+    <!-- 白色 -->
+    <color name="gray">#807d7d</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 灰色 -->
+    <color name="gray2">#666666</color>
+    <!-- 橘黄色 -->
+    <color name="yellowish">#e99323</color>
+    <!-- 橘黄色 -->
+    <color name="redyellow">#ED791F</color>
+    <!-- 透明-->
+    <color name="transparent">#00000000</color>
+    <!-- 红色   -->
+    <color name="read">#ff0000</color>
+
+    <color name="setting_bac">#cac9cf</color>
+    <color name="search_edit_bac">#f5f5f5</color>
+    <color name="search_edit">#f1f0f0</color>
+    <color name="shallow_gray">#a1d4d4d4</color>
+    <color name="gray_g">#e0e0e0</color>
+
+    <!-- 半透明 -->
+    <color name="reansoarent_oneoftwo">#5a000000</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="blue">#0050FF</color>
+    <color name="home_scale">#34495E</color>
+    <color name="home_scale_t">#a134495E</color>
+    <color name="home_scale_d">#5a34495E</color>
+
+    <color name="home_study">#C34D41</color>
+    <color name="home_custom">#e07769</color>
+    <color name="home_setting">#A2404F</color>
+    <color name="colorAccent">#e14143</color>
+
+
+    <color name="scale_tab1">#db4342</color>
+    <color name="scale_tab2">#e04f52</color>
+    <color name="scale_tab3">#db5f43</color>
+    <color name="scale_tab4">#db7042</color>
+    <color name="scale_tab5">#ee781f</color>
+    <color name="bg_full_image">#ff000000</color>
+    <color name="bg_item_pressed">#2000</color>
+    <color name="bg_item_checked">#2055</color>
+
+
+    <!--窗口背景颜色-->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <color name="photopicker_background">#181819</color>
+    <color name="invoice_back">#f1f8e9</color>
+
+</resources>

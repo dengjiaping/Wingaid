@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/padding_margin_22"
+        android:background="@color/search_edit"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding_margin_20"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tv_size_12"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:padding="@dimen/padding_margin_4">
+
+        <com.yd.org.sellpopularizesystem.myView.CircleImageView
+            android:id="@+id/customImageiView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/settingbt"/>
+
+        <TextView
+            android:id="@+id/customName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvNickName"
+            android:layout_toRightOf="@id/customImageiView"
+            android:gravity="center_vertical"
+            android:minHeight="40.0dip"
+            android:paddingLeft="@dimen/padding_margin_10"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+
+        <TextView
+            android:id="@+id/tvNickName"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:ellipsize="end"
+            android:maxEms="5"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+
+     
+
+
+</LinearLayout>

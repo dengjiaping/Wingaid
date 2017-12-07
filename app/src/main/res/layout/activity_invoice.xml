@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:id="@+id/primaryLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/invoiceBottomLinear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/search_edit_bac"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_6"
+            android:layout_marginRight="@dimen/padding_margin_6"
+            android:layout_marginTop="@dimen/padding_margin_6"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_6">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/sanjiao"/>
+
+                <TextView
+                    android:id="@+id/tvInvoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_20"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:text="INVOICE NO :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvInvoiceNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:layout_toRightOf="@+id/tvInvoice"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_10"
+                    android:layout_toLeftOf="@+id/tvStatus"
+                    android:text="Status:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvAbcPtyLtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:text="ABC Pty Ltd"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABN:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvAbn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PHONE:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BILL TO:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvBillTO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:minLines="2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACN:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvAcn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tel:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvTel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOR:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESCRIPTION:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:minLines="2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/invoice_back"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_4"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AMOUNT(Excl.GST):"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvAmountIncl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_edit_bac"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:paddingTop="@dimen/padding_margin_6"
+                android:text="Commission"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GST:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvGst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:gravity="right"
+                        android:text="10%"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SUBTOTAL:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvSubtotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ABN GST registered:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvAbnRegisterd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="Yes"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_edit_bac"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:paddingTop="@dimen/padding_margin_6"
+                android:text="Bonus"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_15"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OTHER:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvOther"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OTHER GST:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvOtherGST"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_6"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_margin_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SUBTOTAL:"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tvSubtotalGST"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_20"
+                android:background="@color/search_edit_bac"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:paddingTop="@dimen/padding_margin_6"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EFT DEPOSITS:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvEftDep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account Name:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/accountName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BSB:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvBsb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account Number:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvAccountNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginBottom="@dimen/padding_margin_10"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10"
+                android:background="@drawable/stroke"
+                android:layerType="software"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:id="@+id/tvFinalDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/deposit_declare"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/invoiceBottomLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/search_edit_bac"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_margin_10"
+        android:paddingTop="@dimen/padding_margin_10">
+
+        <TextView
+            android:id="@+id/consentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:background="@color/scale_tab5"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_margin_10"
+            android:text="@string/accept"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/resoluteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@color/setting_bac"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_margin_10"
+            android:text="@string/resolute"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

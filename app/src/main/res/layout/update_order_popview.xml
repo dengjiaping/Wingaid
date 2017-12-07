@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/padding_margin_4"
+        android:layout_marginRight="@dimen/padding_margin_4"
+        android:background="@drawable/addpopbac"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvOrderTile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_10"
+            android:paddingTop="@dimen/padding_margin_10"
+            android:text="@string/modifiedorder"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/tv_size_12" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/search_edit_bac" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvOrderSequence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_4"
+                android:gravity="center_vertical|right"
+                android:paddingBottom="@dimen/padding_margin_8"
+                android:paddingRight="@dimen/padding_margin_4"
+                android:paddingTop="@dimen/padding_margin_6"
+                android:text="@string/sequence"
+                android:textColor="@color/black"
+                android:textSize="@dimen/padding_margin_12" />
+
+            <TextView
+                android:id="@+id/tvOrderContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/padding_margin_12" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:text="@string/remark"
+            android:textColor="@color/black"
+            android:textSize="@dimen/padding_margin_12" />
+
+        <EditText
+            android:id="@+id/etOrderRemark"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:layout_marginRight="@dimen/padding_margin_4"
+            android:layout_marginTop="@dimen/padding_margin_4"
+            android:background="@drawable/edittext_yuyue_bac"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_12" />
+
+        <TextView
+            android:id="@+id/tvOrderUpdateSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/pop_button_bac"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_8"
+            android:paddingTop="@dimen/padding_margin_8"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12" />
+    </LinearLayout>
+</LinearLayout>

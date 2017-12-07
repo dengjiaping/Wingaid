@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.davidpizarro:pickerui-1.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.davidpizarro/pickerui/1.0.1/711ea2b57a5cc87e22846791abbfa5a853e1b024/pickerui-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

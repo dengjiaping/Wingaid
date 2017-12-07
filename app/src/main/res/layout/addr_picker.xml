@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchWrap"
+    android:background="@color/setting_bac"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/search_edit_bac">
+
+        <TextView
+            android:id="@+id/box_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/procidis"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_12" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/box_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           android:padding="@dimen/padding_margin_10"
+            android:text="@string/ok"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_15" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.yd.org.sellpopularizesystem.myView.WheelView
+            android:id="@+id/province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="4"
+            app:lineColor="@color/gray"
+            app:lineHeight="1.5dp"
+            app:maskHight="6dp"
+            app:noEmpty="true"
+            app:normalTextColor="@color/gray"
+            app:normalTextSize="@dimen/tv_size_12"
+            app:selectedTextColor="@color/black"
+            app:selectedTextSize="@dimen/tv_size_15"
+            app:unitHight="50dp" />
+
+        <com.yd.org.sellpopularizesystem.myView.WheelView
+            android:id="@+id/city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            app:itemNumber="4"
+            app:lineColor="@color/gray"
+            app:lineHeight="1.5dp"
+            app:maskHight="32dp"
+            app:noEmpty="true"
+            app:normalTextColor="@color/gray"
+            app:normalTextSize="@dimen/tv_size_12"
+            app:selectedTextColor="@color/black"
+            app:selectedTextSize="@dimen/tv_size_15"
+            app:unitHight="50dp" />
+
+        <com.yd.org.sellpopularizesystem.myView.WheelView
+            android:id="@+id/county"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            app:itemNumber="4"
+            app:lineColor="@color/gray"
+            app:lineHeight="1.5dp"
+            app:maskHight="32dp"
+            app:noEmpty="true"
+            app:normalTextColor="@color/gray"
+            app:normalTextSize="@dimen/tv_size_12"
+            app:selectedTextColor="@color/black"
+            app:selectedTextSize="@dimen/tv_size_15"
+            app:unitHight="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

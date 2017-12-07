@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:id="@+id/rlHouseType"
+            style="@style/MatchWrap"
+            android:padding="@dimen/padding_margin_14">
+
+            <TextView
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:text="@string/housetype"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <TextView
+                android:id="@+id/tvHouseType"
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:layout_toLeftOf="@+id/ivHtIndicator"
+                android:gravity="center"
+                android:text="@string/nolimit"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <ImageView
+                android:id="@+id/ivHtIndicator"
+                style="@style/WrapWrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:src="@mipmap/rightarrow"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+        <RelativeLayout
+            android:id="@+id/rlType"
+            style="@style/MatchWrap"
+            android:padding="@dimen/padding_margin_14">
+
+            <TextView
+                android:id="@+id/tvMessageTitle"
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:text="@string/type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <TextView
+                android:id="@+id/tvSelectType"
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:layout_toLeftOf="@+id/ivIndicator"
+                android:gravity="center"
+                android:text="@string/nolimit"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <ImageView
+                android:id="@+id/ivIndicator"
+                style="@style/WrapWrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:src="@mipmap/rightarrow"/>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+        <RelativeLayout
+            android:id="@+id/rlPrice"
+            style="@style/MatchWrap"
+            android:padding="@dimen/padding_margin_14">
+
+            <TextView
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <TextView
+                android:id="@+id/tvSelectPrice"
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:layout_toLeftOf="@+id/ivPriceIndicator"
+                android:gravity="center"
+                android:text="@string/nolimit"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <ImageView
+                android:id="@+id/ivPriceIndicator"
+                style="@style/WrapWrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_6"
+                android:src="@mipmap/rightarrow"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvProductSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/scale_tab5"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_margin_10"
+        android:paddingTop="@dimen/padding_margin_10"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_size_12"/>
+</RelativeLayout>

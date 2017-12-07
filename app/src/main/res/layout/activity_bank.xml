@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yd.org.sellpopularizesystem.myView.BounceScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/search_edit_bac"
+            android:padding="@dimen/padding_margin_10"
+            android:text="@string/bankhint"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/cardholder"/>
+
+            <EditText
+                android:id="@+id/accountNameEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="end"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_20"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/setting_bac"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/cardnum"/>
+
+            <EditText
+                android:id="@+id/accountNumberEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="end"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_20"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/setting_bac"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/openbank"/>
+
+            <EditText
+                android:id="@+id/bankNameEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="end"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_20"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/setting_bac"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_10"
+                android:text="BSB"/>
+
+            <EditText
+                android:id="@+id/bsbEd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="end"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_20"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/setting_bac"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:background="@color/search_edit_bac"/>
+
+
+    </LinearLayout>
+
+</com.yd.org.sellpopularizesystem.myView.BounceScrollView>

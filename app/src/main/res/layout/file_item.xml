@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_margin_16"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:layout_marginRight="@dimen/padding_margin_10"
+        android:layout_marginTop="@dimen/padding_margin_16">
+
+        <TextView
+            android:layout_marginRight="@dimen/padding_margin_10"
+            android:layout_toLeftOf="@+id/imag"
+            android:id="@+id/tvFilfeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <ImageView
+            android:id="@+id/imag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/rightarrow"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/examinaltionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginTop="@dimen/padding_margin_8"
+        android:lineSpacingExtra="3dp"
+        android:lineSpacingMultiplier="1"
+        android:maxLines="3"/>
+
+    <RadioGroup
+        android:id="@+id/childRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_margin_6"
+        android:orientation="vertical">
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/childLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="@dimen/padding_margin_6"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:background="@color/setting_bac" />
+</LinearLayout>

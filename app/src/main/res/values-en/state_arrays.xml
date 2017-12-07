@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="states_list_au" translatable="false" >
+        <item>NSW          </item>
+        <item>VIC          </item>
+        <item>ACT          </item>
+        <item>QLD          </item>
+        <item>SA           </item>
+        <item>NT           </item>
+        <item>TAS          </item>
+        <item>WA           </item>
+        ></string-array>
+
+</resources>

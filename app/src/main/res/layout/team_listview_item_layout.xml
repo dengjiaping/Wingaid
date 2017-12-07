@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTeamName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/home_study"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding_margin_10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_size_15"
+        android:textStyle="bold"/>
+
+    <com.yd.org.sellpopularizesystem.myView.ChildListView
+        android:id="@+id/lvTeamMember"
+        style="@style/MatchWrap"
+        android:divider="@color/setting_bac"
+        android:dividerHeight="0.5dp">
+    </com.yd.org.sellpopularizesystem.myView.ChildListView>
+</LinearLayout>

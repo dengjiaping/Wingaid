@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yd.org.sellpopularizesystem.activity.SelectConditionActivity">
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/padding_margin_20"
+                android:background="@color/scale_tab5"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_margin_10"
+                android:paddingTop="@dimen/padding_margin_10"
+                android:text="@string/home_sure"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_12"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+</LinearLayout>

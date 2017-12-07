@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mainRelat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#b0000000"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_20"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginRight="@dimen/padding_margin_20"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/button_bac2">
+
+
+            <TextView
+                android:id="@+id/tvMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/moneypoint"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <EditText
+                android:id="@+id/moneyEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvMoney"
+                android:background="@null"
+                android:inputType="number"
+                android:gravity="start"
+                android:hint="@string/input_money"
+                android:padding="@dimen/padding_margin_10"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+
+            <TextView
+                android:id="@+id/tvMemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvMoney"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/remark_"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"/>
+
+            <EditText
+                android:id="@+id/memoEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvMoney"
+                android:layout_toRightOf="@+id/tvMemo"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="@string/reject_reason"
+                android:minLines="3"
+                android:padding="@dimen/padding_margin_10"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/subButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/button_bac2"
+            android:gravity="center"
+            android:padding="@dimen/padding_margin_10"
+            android:text="@string/submit"
+            android:textColor="@color/gray"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

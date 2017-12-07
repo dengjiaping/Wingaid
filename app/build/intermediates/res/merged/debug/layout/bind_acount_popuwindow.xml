@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch">
+
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:background="@drawable/base_square"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/photoAlbumButton"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_marginRight="@dimen/padding_margin_20"
+                android:layout_marginTop="@dimen/padding_margin_8"
+                android:gravity="center"
+                android:text="@string/bindthreeaccount"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:background="@color/search_edit_bac"
+                />
+
+            <Button
+                android:id="@+id/bindAcount"
+                style="@style/MatchWrap"
+                android:background="@drawable/base_square"
+                android:text="@string/setting_bindweixinaccount"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/MatchWrap"
+            android:layout_marginBottom="@dimen/padding_margin_10"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/base_square"
+            android:text="@string/cancel"
+            android:textColor="@color/light_blue"
+            android:textSize="@dimen/tv_size_15" />
+    </LinearLayout>
+
+</RelativeLayout>

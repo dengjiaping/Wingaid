@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             style="@style/MatchMatch"
+             android:background="@color/white"
+             android:orientation="vertical">
+
+    <com.yd.org.sellpopularizesystem.internal.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        style="@style/MatchMatch"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/refresh_head"/>
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.yd.org.sellpopularizesystem.internal.PullableListView
+            android:id="@+id/content_view"
+            style="@style/MatchMatch"/>
+
+        <include layout="@layout/load_more"/>
+
+    </com.yd.org.sellpopularizesystem.internal.PullToRefreshLayout>
+
+    <TextView
+        android:id="@+id/noInfomation"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/noinformation"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/tv_size_20"
+        android:visibility="gone"/>
+
+
+</FrameLayout>

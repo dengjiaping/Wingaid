@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/mainRelat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/saveImage"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:text="@string/invitedes"
+            android:gravity="center"
+            android:textColor="#303030"
+            android:textSize="@dimen/tv_size_18"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/referId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:text="@string/recommendqr"
+            android:textColor="#303030"
+            android:textSize="@dimen/tv_size_18"/>
+
+
+        <ImageView
+            android:id="@+id/ivQr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_margin_100"
+            android:layout_marginLeft="@dimen/padding_margin_50"
+            android:layout_marginRight="@dimen/padding_margin_50"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:background="@color/search_edit_bac"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/saveImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginRight="@dimen/padding_margin_20"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:background="@color/scale_tab5"
+        android:gravity="center"
+        android:padding="@dimen/padding_margin_10"
+        android:text="@string/customdetaild_save"
+        android:textColor="@color/white"/>
+</RelativeLayout>

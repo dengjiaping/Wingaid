@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/buildingphoto1"/>
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:padding="@dimen/padding_margin_10"
+            android:scaleType="centerInside"
+            android:src="@mipmap/wback"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/scvl"
+            layout="@layout/nest_scrollview_layout"/>
+
+        <GridView
+            android:id="@+id/gvHouse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_margin_10"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:layout_marginRight="@dimen/padding_margin_10"
+            android:horizontalSpacing="@dimen/padding_margin_10"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/padding_margin_10">
+
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

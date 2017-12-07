@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/rlReserver"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:paddingBottom="@dimen/padding_margin_10"
+                android:paddingTop="@dimen/padding_margin_10">
+
+                <TextView
+                    android:id="@+id/tvReNameOne"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:drawableLeft="@mipmap/order"
+                    android:drawablePadding="@dimen/padding_margin_6"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_15"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_edit"
+                android:paddingBottom="@dimen/padding_margin_10"
+                android:paddingTop="@dimen/padding_margin_10">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:text="@string/order_info"
+                    android:textColor="@color/black"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/price"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvRePrice"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/type"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvRetype"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/available_for_firb"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReFirb"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/sale"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReSale"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rlRecus"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    android:id="@+id/reTextCustome"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/custome"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReCus"
+                    style="@style/WrapMatch"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/reTextCustome"
+                    android:gravity="right"
+                    android:textColor="#ff0000"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rlCopurchase"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    android:id="@+id/reCopurchase"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/co_people"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <EditText
+                    android:id="@+id/etCopurchase"
+                    style="@style/WrapMatch"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/reCopurchase"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/separated"
+                    android:textColor="#ff0000"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rlRecusAddress"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    android:id="@+id/reT"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/cus_address"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReCusAdd"
+                    style="@style/MatchWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:layout_toRightOf="@+id/reT"
+                    android:gravity="end"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"
+                android:visibility="gone"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relCompany"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/comname"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvCompany"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"
+                android:visibility="gone"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relShareholder"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/shareholder"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvShareholder"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="未知"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rlReLawyer"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cuslawyer"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:id="@+id/ivReLawyer"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/add"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReLawyer"
+                    style="@style/WrapMatch"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/tv_size_12"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rlReGoal"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/buyhousetention"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReGoal"
+                    style="@style/WrapMatch"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/unknow"
+                    android:textColor="@color/light_blue"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/shallow_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rlPayType"
+                style="@style/MatchWrap"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:paddingBottom="@dimen/padding_margin_14"
+                android:paddingTop="@dimen/padding_margin_14">
+
+                <TextView
+                    android:id="@+id/tvPay"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/money"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvRePay"
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_30"
+                    android:layout_toRightOf="@+id/tvPay"
+                    android:text="$0000"
+                    android:textColor="@color/read"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvRePayType"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/pay_method"
+                    android:textColor="@color/light_blue"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@color/search_edit_bac"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/padding_margin_10">
+
+
+                    <CheckBox
+                        android:id="@+id/check_box"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/padding_margin_14"
+                        android:background="@drawable/isread"
+                        android:button="@null"
+                        android:padding="@dimen/padding_margin_4"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:drawableLeft="@mipmap/xinghao"
+                        android:text="@string/consent"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                    <TextView
+                        android:id="@+id/isRead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:text="@string/declare"
+                        android:textColor="@color/light_blue"
+                        android:textSize="@dimen/tv_size_12"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btReSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/padding_margin_20"
+                    android:layout_marginRight="@dimen/padding_margin_20"
+                    android:layout_marginTop="@dimen/padding_margin_20"
+                    android:background="@color/gray_g"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+</LinearLayout>

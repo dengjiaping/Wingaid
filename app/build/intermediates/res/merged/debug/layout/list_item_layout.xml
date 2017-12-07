@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchWrap"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:id="@+id/prductImageView"
+            style="@style/MatchMatch"
+            android:background="@color/reansoarent_oneoftwo"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/productName"
+            style="@style/MatchWrap"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/padding_margin_6"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_50"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_tv_size"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/productDescription"
+            style="@style/MatchWrap"
+            android:layout_above="@+id/productName"
+            android:layout_marginBottom="@dimen/padding_margin_6"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginTop="@dimen/padding_margin_12"
+            android:maxLines="4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <ImageView
+            android:id="@+id/ivIslock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/lock"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <com.yd.org.sellpopularizesystem.myView.ChildListView
+        android:id="@+id/lvSubItem"
+        style="@style/MatchWrap"
+        android:divider="@color/setting_bac"
+        android:dividerHeight="0.5dp">
+
+    </com.yd.org.sellpopularizesystem.myView.ChildListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/setting_bac"/>
+
+    <RelativeLayout
+        android:id="@+id/rlViewAll"
+        style="@style/MatchWrap">
+
+        <TextView
+            style="@style/WrapWrap"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/padding_margin_4"
+            android:drawableRight="@mipmap/more"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_margin_10"
+            android:paddingRight="@dimen/padding_margin_10"
+            android:paddingTop="@dimen/padding_margin_10"
+            android:text="@string/seeall"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_12"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

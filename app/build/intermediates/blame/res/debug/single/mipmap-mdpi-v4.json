@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_action_discard.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/photopicker/build/intermediates/bundles/debug/res/mipmap-mdpi-v4/ic_action_discard.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_action_discard.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/debug/res/mipmap-mdpi-v4/ic_action_discard.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_action_discard.png",
+        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/photopicker/build/intermediates/bundles/debug/res/mipmap-mdpi-v4/ic_action_discard.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

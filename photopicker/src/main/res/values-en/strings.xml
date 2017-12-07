@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="image">Picture</string>
+    <string name="all_image">All Picture</string>
+    <string name="preview">Preview</string>
+    <string name="msg_no_camera">Unable to enable the system camera view</string>
+    <string name="msg_amount_limit">Number has reached the highest choice</string>
+    <string name="done">Complete</string>
+    <string name="done_with_count">Complete(%1$d/%2$d)</string>
+    <string name="image_index">%1$d/%2$d</string>
+    <string name="delete">Delete</string>
+    <string name="deleted_a_photo">Delete Picture</string>
+    <string name="confirm_to_delete">Confirm the deletion？</string>
+    <string name="yes">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+
+
+
+    <string name="DEF_RATIONAL_MESSAGE">This feature requires you to authorize, otherwise will not be able to normal use</string>
+    <string name="DEF_DENIED_MESSAGE">You refused permission application, this function will not be able to normal use, you can go to the Settings page to authorization</string>
+    <string name="DEF_DENIED_CLOSE_BTN_TEXT">Shut down</string>
+    <string name="DEF_DENIED_SETTINGS_BTN_TEXT">Set Permissions</string>
+    <string name="DEF_RATIONAL_BTN_TEXT">I know</string>
+
+</resources>
+

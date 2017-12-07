@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/activity_custom_detailed"
+            style="@style/MatchWrap"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10">
+
+
+                <com.yd.org.sellpopularizesystem.myView.CircleImageView
+                    android:id="@+id/customeIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/settingbt"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_20"
+                    android:layout_toRightOf="@+id/customeIcon"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/edCustomeTrueName"
+                        style="@style/MatchWrap"
+                        android:background="@null"
+                        android:drawableLeft="@mipmap/xinghao"
+                        android:ellipsize="end"
+                        android:hint="@string/firstname"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/setting_bac"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <EditText
+                        android:id="@+id/etMiddleName"
+                        style="@style/MatchWrap"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:hint="@string/middlename"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/setting_bac"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <EditText
+                        android:id="@+id/etFistName"
+                        style="@style/MatchWrap"
+                        android:background="@null"
+                        android:drawableLeft="@mipmap/xinghao"
+                        android:ellipsize="end"
+                        android:hint="@string/lastname"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/setting_bac"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <EditText
+                        android:id="@+id/etEnglishName"
+                        style="@style/MatchWrap"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:hint="@string/Nickname"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/setting_bac"
+                        android:textSize="@dimen/tv_size_12"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <!--end**********-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/birthday"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedBie"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableLeft="@mipmap/xinghao"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/mobilephone"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edCustomeMobile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:digits="1234567890"
+                    android:gravity="end"
+                    android:hint="@string/mobileormail"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone|number"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <ImageView
+                    android:id="@+id/ivPhone"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/phone"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableLeft="@mipmap/xinghao"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/email"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/mobileormail"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:id="@+id/ivEmail"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/padding_margin_10"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/email"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/wechatpay"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedWeChat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/qq"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedQQ"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:digits="1234567890"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_image_bigloading"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="Memo"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/etCusMemo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:gravity="start|center_vertical"
+                    android:hint="memo"
+                    android:imeOptions="actionNext"
+                    android:padding="@dimen/padding_margin_14"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_12"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/search_edit_bac"/>
+
+            <include
+                android:id="@+id/llCompany"
+                layout="@layout/company_layout"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/search_edit_bac"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_10">
+
+
+                <TextView
+                    android:id="@+id/tvComAdd_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:src="@mipmap/settingbt"
+                    android:text="@string/address"/>
+
+                <View
+                    android:id="@+id/v_01"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:layout_toRightOf="@+id/tvComAdd_01"
+                    android:background="@color/search_edit_bac"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/v_01"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <ImageView
+                            android:id="@+id/countryImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/xinghao"
+                            android:visibility="gone"/>
+
+
+                        <TextView
+                            style="@style/WrapWrap"
+                            android:background="@null"
+                            android:maxLines="1"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/country"
+                            android:textColor="@color/gray"
+                            android:textColorHint="@color/setting_bac"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:id="@+id/tvCountry_01"
+                            style="@style/MatchWrap"
+                            android:background="@null"
+                            android:drawableRight="@mipmap/right_sm"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_margin_14"
+                            android:singleLine="true"
+                            android:text="@string/Australian"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/setting_bac"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/unitnum"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etUnit_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/street_num"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etStreetNum_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/zhou"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etZhou_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:focusable="false"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/qu"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etDistrict_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:focusable="false"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <ImageView
+                            android:id="@+id/Street1_01Imageview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/xinghao"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/street1"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etStreet1_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="end"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:padding="@dimen/padding_margin_14"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/street2"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+
+                        <EditText
+                            android:id="@+id/etStreet2_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:gravity="end"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:padding="@dimen/padding_margin_14"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/padding_margin_10"
+                        android:background="@color/search_edit_bac"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:drawableLeft="@mipmap/xinghao"
+                            android:padding="@dimen/padding_margin_14"
+                            android:text="@string/postcode"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/tv_size_12"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/search_edit_bac"/>
+
+                        <EditText
+                            android:id="@+id/etEma_01"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:background="@null"
+                            android:digits="1234567890"
+                            android:ellipsize="end"
+                            android:gravity="end"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:padding="@dimen/padding_margin_14"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/tv_size_12"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/ivCon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:src="@mipmap/xinghao"
+                    android:visibility="gone"/>
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:paddingBottom="@dimen/padding_margin_14"
+                    android:paddingLeft="@dimen/padding_margin_10"
+                    android:paddingTop="@dimen/padding_margin_14"
+                    android:text="@string/nationorarea"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedNationality"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/ivPro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:src="@mipmap/xinghao"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/pcd"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedCity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="end"
+                    android:hint="@string/procidis"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/ivAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:src="@mipmap/xinghao"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/address"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/ivZipcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:src="@mipmap/xinghao"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/postcode"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmeZipCode"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivfirb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:src="@mipmap/xinghao"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.76"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/firb"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/etFirb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="end"
+                    android:hint="@string/no"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:text="@string/no"
+                    android:textColor="@color/light_blue"
+                    android:textColorHint="@color/light_blue"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/job"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedWeJob"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/salary"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedSalary"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/idcard"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedCard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/passport"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedPassPort"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/nation"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/etNation"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:text="@string/Australian"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/search_edit_bac"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_14"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/right_sm"
+                        android:padding="@dimen/padding_margin_14"
+                        android:text="@string/relationshipfirstname"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/search_edit_bac"/>
+
+
+                    <EditText
+                        android:id="@+id/edcustmomeDetailedKinsfolk"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_14"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/right_sm"
+                        android:padding="@dimen/padding_margin_14"
+                        android:text="@string/Lastname"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/search_edit_bac"/>
+
+
+                    <EditText
+                        android:id="@+id/etLn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:padding="@dimen/padding_margin_14"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/tv_size_12"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/relation"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedRelation"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/relationphone"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/edcustmomeDetailedPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:digits="1234567890"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/search_edit_bac"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableRight="@mipmap/right_sm"
+                    android:padding="@dimen/padding_margin_14"
+                    android:text="@string/family_email"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/search_edit_bac"/>
+
+
+                <EditText
+                    android:id="@+id/family_email"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_14"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/llOperate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scale_tab5"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_margin_8"
+        android:paddingTop="@dimen/padding_margin_8">
+
+        <TextView
+            android:id="@+id/tvEoi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/eoi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvVisit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/visit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvReserve"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvExpandRe"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/promoterecord"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvPurchaseRe"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/purchasehouserecord"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+    </LinearLayout>
+
+
+</LinearLayout>

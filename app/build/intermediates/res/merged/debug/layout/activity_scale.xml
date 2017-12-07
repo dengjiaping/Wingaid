@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch.Vertical"
+              android:background="@color/white">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/shallow_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rlBackgroundPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/llClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_margin_6"
+            android:paddingTop="@dimen/padding_margin_6">
+
+            <LinearLayout
+                android:id="@+id/llPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingTop="@dimen/padding_margin_6">
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center|right"
+                    android:paddingRight="@dimen/padding_margin_6"
+                    android:text="@string/price"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:id="@+id/ivPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@mipmap/trangle"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:id="@+id/llType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingTop="@dimen/padding_margin_6">
+
+                <TextView
+                    android:id="@+id/tvType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center|right"
+                    android:paddingRight="@dimen/padding_margin_6"
+                    android:text="@string/type"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:id="@+id/ivType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@mipmap/trangle"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:id="@+id/llHouseType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingTop="@dimen/padding_margin_6">
+
+                <TextView
+                    android:id="@+id/tvHouseType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center|right"
+                    android:paddingRight="@dimen/padding_margin_6"
+                    android:text="@string/housetype"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:id="@+id/ivHouseType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@mipmap/trangle"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/search_edit"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingTop="@dimen/padding_margin_6"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center|right"
+                    android:paddingRight="@dimen/padding_margin_6"
+                    android:text="@string/area"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/ivArea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@mipmap/trangle"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llClass"
+            android:background="@color/search_edit_bac">
+
+            <TextView
+                android:id="@+id/tvProjectNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/project1"
+                android:drawablePadding="@dimen/padding_margin_6"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/totalprojectnum"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_12"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <include layout="@layout/base_listview"/>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

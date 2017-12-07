@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlDoaPop"
+    style="@style/MatchMatch">
+
+    <LinearLayout
+        android:id="@+id/llMethodContent"
+        style="@style/MatchWrap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:background="@drawable/base_square"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btDoaCash"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_35"
+                android:background="@drawable/base_square"
+                android:text="@string/recash"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/search_edit_bac"/>
+
+            <Button
+                android:id="@+id/btDoaTransfer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_35"
+                android:background="@drawable/base_square"
+                android:text="@string/transfer"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btDoaCancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_margin_35"
+            android:layout_marginBottom="@dimen/padding_margin_10"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/base_square"
+            android:text="@string/cancel"
+            android:textColor="@color/light_blue"
+            android:textSize="@dimen/tv_size_15"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSpace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llMethodContent"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+</RelativeLayout>

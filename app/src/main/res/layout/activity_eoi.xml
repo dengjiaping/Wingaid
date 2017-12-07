@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/base_header_main"
+        layout="@layout/base_header_main">
+
+    </include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scale_tab5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="@dimen/padding_margin_10"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:layout_marginRight="@dimen/padding_margin_10"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/commission_rb_bac"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <RelativeLayout
+                android:id="@+id/rlNotUse"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbNotUse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/comeoi_rbleft_selector"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/not_used"
+                    android:textColor="@drawable/commission_rbtextcolor_select"
+                    android:textSize="@dimen/tv_size_15"/>
+
+                <TextView
+                    android:id="@+id/tvNotUse"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_4"
+                    android:background="@drawable/circle_shape"
+                    android:gravity="center"
+                    android:text="@string/_99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_08"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <RelativeLayout
+                android:id="@+id/rlAlreadyUsed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbAlreadyUsed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectange_comeoi_mid_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="@string/isuse"
+                    android:textColor="@drawable/commission_rbtextcolor_select"
+                    android:textSize="@dimen/tv_size_15"/>
+
+                <TextView
+                    android:id="@+id/tvAlreadyUsed"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_4"
+                    android:background="@drawable/circle_shape"
+                    android:gravity="center"
+                    android:text="@string/_99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_08"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <RelativeLayout
+                android:id="@+id/rlRefunded"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbRefunded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/comeoi_rbright_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="@string/done_re"
+                    android:textColor="@drawable/commission_rbtextcolor_select"
+                    android:textSize="@dimen/tv_size_15"/>
+
+                <TextView
+                    android:id="@+id/tvRefunded"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_4"
+                    android:background="@drawable/circle_shape"
+                    android:gravity="center"
+                    android:text="@string/_99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_08"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/MatchMatch"
+        android:background="@color/white">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpEoi"
+            style="@style/MatchMatch"
+            android:flipInterval="30"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/base_header_main"
+        layout="@layout/base_header_main">
+
+    </include>
+
+
+    <LinearLayout
+        android:id="@+id/commissonLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scale_tab5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginTop="@dimen/padding_margin_10"
+            android:background="@drawable/commission_rb_bac"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="1dp">
+
+            <RelativeLayout
+                android:id="@+id/rlPersonal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbPersonalCom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/comeoi_rbleft_selector"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/personal_commission"
+                    android:textColor="@drawable/commission_rbtextcolor_select"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvPersonalSum"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_4"
+                    android:background="@drawable/circle_shape"
+                    android:gravity="center"
+                    android:text="@string/_99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_08"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/redyellow"/>
+
+            <RelativeLayout
+                android:id="@+id/rlLeader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbLeaderAward"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/comeoi_rbright_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/sale_leader"
+                    android:textColor="@drawable/commission_rbtextcolor_select"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvLeaderAwardSum"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/padding_margin_4"
+                    android:layout_marginTop="@dimen/padding_margin_4"
+                    android:background="@drawable/circle_shape"
+                    android:gravity="center"
+                    android:text="@string/_99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tv_size_08"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/MatchMatch"
+        android:background="@color/white">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpCommission"
+            style="@style/MatchMatch"
+            android:flipInterval="30"/>
+
+    </FrameLayout>
+
+</LinearLayout>

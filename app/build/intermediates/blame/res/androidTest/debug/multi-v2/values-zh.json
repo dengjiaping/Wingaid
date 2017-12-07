@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    }
+                }
+            ]
+        }
+    ]
+}

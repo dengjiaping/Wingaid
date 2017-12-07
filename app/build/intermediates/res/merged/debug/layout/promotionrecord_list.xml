@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_margin_14"
+        android:layout_marginRight="@dimen/padding_margin_14">
+
+        <TextView
+            android:id="@+id/tvPromDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/padding_margin_16"
+            android:paddingTop="@dimen/padding_margin_16"
+            android:textSize="@dimen/tv_size_12"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:layout_toLeftOf="@+id/tvPromLong"
+            android:layout_toRightOf="@+id/tvPromDate"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_margin_16"
+            android:paddingTop="@dimen/padding_margin_16">
+
+            <TextView
+                android:id="@+id/tvPromTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_12"/>
+
+
+            <LinearLayout
+                android:id="@+id/promtionLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_margin_4"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tvProm01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_4"
+                    android:src="@mipmap/bedroom"/>
+
+                <TextView
+                    android:id="@+id/tvProm02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_4"
+                    android:text="0"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_4"
+                    android:src="@mipmap/shower"/>
+
+                <TextView
+                    android:id="@+id/tvProm03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_4"
+                    android:text="0"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_4"
+                    android:src="@mipmap/car"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPromLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/padding_margin_16"
+            android:paddingTop="@dimen/padding_margin_16"
+            android:textSize="@dimen/tv_size_12"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

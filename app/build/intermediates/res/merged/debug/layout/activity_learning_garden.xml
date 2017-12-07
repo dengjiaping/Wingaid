@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/base_header_main"
+        layout="@layout/base_header_main">
+
+    </include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/shallow_gray"/>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/padding_margin_30"
+        android:layout_marginRight="@dimen/padding_margin_30"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:background="@drawable/studycheck_butbac"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/studyRadion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sdudycheck_radiobutton_selector"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/study"
+            android:textColor="@drawable/radiotextcolor_select"
+            android:textSize="@dimen/tv_size_15"/>
+
+
+        <RadioButton
+            android:id="@+id/checkRadion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/checkbut_radiobutton_selector"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/check"
+            android:textColor="@drawable/radiotextcolor_select"
+            android:textSize="@dimen/tv_size_15"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:background="@color/search_edit_bac"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_margin_10"
+        android:paddingTop="@dimen/padding_margin_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_margin_20"
+            android:scaleType="centerInside"
+            android:src="@mipmap/studymaterial"/>
+
+        <TextView
+            android:id="@+id/tvStudyNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:maxLines="2"
+            android:text="0"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/MatchMatch"
+        android:background="@color/white">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/studyViewPager"
+            style="@style/MatchMatch"
+            android:flipInterval="30"/>
+
+    </FrameLayout>
+
+</LinearLayout>

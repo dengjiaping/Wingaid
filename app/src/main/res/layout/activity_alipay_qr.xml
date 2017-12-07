@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:id="@+id/wvQr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+    </WebView>
+
+    <TextView
+        android:id="@+id/tvPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/padding_margin_200"
+        android:textSize="@dimen/tv_size_15"/>
+
+
+    <TextView
+        android:id="@+id/payTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginRight="@dimen/padding_margin_20"
+        android:background="@color/scale_tab5"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_margin_10"
+        android:paddingTop="@dimen/padding_margin_10"
+        android:text="@string/pay_another"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

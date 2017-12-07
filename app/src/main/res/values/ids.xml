@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbarutil_fake_status_bar_view" type="id"/>
+    <item name="statusbarutil_translucent_view" type="id"/>
+    <item name="rbPrice1" type="id"/>
+    <item name="rbPrice2" type="id"/>
+    <item name="rbPrice3" type="id"/>
+    <item name="rbPrice4" type="id"/>
+    <item name="rbPrice5" type="id"/>
+    <item name="rbPrice6" type="id"/>
+
+    <item name="cbType1" type="id"/>
+    <item name="cbType2" type="id"/>
+    <item name="cbType3" type="id"/>
+
+    <item name="cbHouseType1" type="id"/>
+    <item name="cbHouseType2" type="id"/>
+    <item name="cbHouseType3" type="id"/>
+    <item name="cbHouseType4" type="id"/>
+    <item name="cbHouseType5" type="id"/>
+    <item name="cbHouseType6" type="id"/>
+
+</resources>
