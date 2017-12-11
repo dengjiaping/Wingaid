@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchMatch"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        style="@style/MatchWrap"
+        android:background="@color/search_edit_bac">
+
+        <com.yd.org.sellpopularizesystem.myView.SearchEditText
+            android:id="@+id/activity_main_input_edittext"
+            style="@style/editTextStyle"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/contactAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="@dimen/padding_margin_4"
+        android:drawableTop="@mipmap/contacts_add"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_margin_4"
+        android:text="@string/contact_add"
+        android:textSize="@dimen/tv_size_12"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/base_listview"/>
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/padding_margin_22"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/title_layout_catalog"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/search_edit_bac"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_12"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/sidebar_background"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_15"
+            android:visibility="invisible"/>
+
+        <com.yd.org.sellpopularizesystem.custom.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="@dimen/padding_margin_35"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"/>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -16316,7 +16316,6 @@
     <string name="all_image">All images</string>
     <string name="app_exit">Again according to exit the program</string>
     <string name="app_name">Wingaid</string>
-    <string name="app_name_beta">Wingaid beta</string>
     <string name="apply_contract">Apply Contract</string>
     <string name="apply_time">Time:</string>
     <string name="apt">APT</string>
@@ -16346,6 +16345,7 @@
     <string name="bindthreeaccount">Connected Account</string>
     <string name="birthday">Date of Birth</string>
     <string name="blank_space">  </string>
+    <string name="booking">预定中</string>
     <string name="builder">Builder:</string>
     <string name="building_price">Building price</string>
     <string name="bushi">No</string>
@@ -16451,6 +16451,7 @@
     <string name="declare"><![CDATA[<<Declaration>>]]></string>
     <string name="declaretitle">Declaration</string>
     <string name="declaretitle_01">Declaration</string>
+    <string name="default_com">Default</string>
     <string name="delete">Delete</string>
     <string name="deleted_a_photo">Delete the picture</string>
     <string name="deposit">Deposit Paid</string>

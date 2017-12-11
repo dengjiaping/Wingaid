@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_action_discard.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/ic_action_discard.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/asv.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/asv.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/btn_selected.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/btn_selected.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/default_check.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/default_check.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/btn_unselected.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/btn_unselected.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/asy.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/asy.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/default_error.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-xxhdpi-v4/default_error.png"
+    }
+]

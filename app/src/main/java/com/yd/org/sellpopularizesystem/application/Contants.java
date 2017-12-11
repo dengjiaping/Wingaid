@@ -198,7 +198,8 @@ public class Contants {
     //购房记录
     public static final String ORDER_LIST = DOMAIN + "/index.php/appv2/order/order_list";
     //佣金
-    public static final String COMMOSSION_LIST = DOMAIN + "/index.php/appv2/Commondata/comlist";
+    //public static final String COMMOSSION_LIST = DOMAIN + "/index.php/appv2/Commondata/comlist";
+    public static final String COMMOSSION_LIST = DOMAIN + "/index.php/appv2/commossion/commossion_list";
     //发票详情
     public static final String DEPOSIT_DETAILS = DOMAIN + "/index.php/appv2/commossion/tax_invoice_info";
     //同意或拒绝发票

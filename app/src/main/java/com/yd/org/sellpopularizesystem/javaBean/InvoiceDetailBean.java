@@ -1,9 +1,5 @@
 package com.yd.org.sellpopularizesystem.javaBean;
 
-import com.google.gson.annotations.SerializedName;
-
-import java.io.Serializable;
-
 /**
  * Created by hejin on 2017/9/22.
  */
@@ -13,7 +9,7 @@ public class InvoiceDetailBean extends Domine{
     /**
      * code : 1
      * msg : 获取成功
-     * result : {"user_name":"liao.liao","abn":"djdjffjf","phone":"sssxxx","address":"阿塞拜疆12123awasfuture12345","date":1505896661,"for":"193","description":"House-Boxhill (Brass Homes)/193Contract price:$606000.00","amount":"2908.80","subtotal":"2908.80","is_gst":1,"other":"0.00","total":"2908.8","account_name":"vvvvv","bsb":"gggvv","account_number":"ccvfgv","invoice_id":"5","invoice_no":"Iv000005","status":1}
+     * result : {"user_name":"da2.da2","abn":"uu66 ","acn":"","phone":"658808994","address":"澳大利亚Jordan124578","date":1512556029,"fors":"8","description":"Land - Clydesdale Marsden Park /nkh；看Contract price:$6799900.00","amount":"101998.50","subtotal":101998.5,"gst":"0.00","is_gst":1,"other":"10000.00","total":"111998.5","account_name":"e-dot.net","bsb":"bsb","account_number":"98765543211","subtotal_other":0,"other_gst":"-","invoice_id":50,"invoice_no":"Iv000050","status":2}
      */
 
     private String code;
@@ -46,42 +42,50 @@ public class InvoiceDetailBean extends Domine{
 
     public static class ResultBean extends Domine{
         /**
-         * user_name : liao.liao
-         * abn : djdjffjf
-         * phone : sssxxx
-         * address : 阿塞拜疆12123awasfuture12345
-         * date : 1505896661
-         * for : 193
-         * description : House-Boxhill (Brass Homes)/193Contract price:$606000.00
-         * amount : 2908.80
-         * subtotal : 2908.80
+         * user_name : da2.da2
+         * abn : uu66
+         * acn :
+         * phone : 658808994
+         * address : 澳大利亚Jordan124578
+         * date : 1512556029
+         * fors : 8
+         * description : Land - Clydesdale Marsden Park /nkh；看Contract price:$6799900.00
+         * amount : 101998.50
+         * subtotal : 101998.5
+         * gst : 0.00
          * is_gst : 1
-         * other : 0.00
-         * total : 2908.8
-         * account_name : vvvvv
-         * bsb : gggvv
-         * account_number : ccvfgv
-         * invoice_id : 5
-         * invoice_no : Iv000005
-         * status : 1
+         * other : 10000.00
+         * total : 111998.5
+         * account_name : e-dot.net
+         * bsb : bsb
+         * account_number : 98765543211
+         * subtotal_other : 0
+         * other_gst : -
+         * invoice_id : 50
+         * invoice_no : Iv000050
+         * status : 2
          */
 
         private String user_name;
         private String abn;
+        private String acn;
         private String phone;
         private String address;
-        private long date;
-        private String forX;
+        private int date;
+        private String fors;
         private String description;
         private String amount;
-        private String subtotal;
+        private double subtotal;
+        private String gst;
         private int is_gst;
         private String other;
         private String total;
         private String account_name;
         private String bsb;
         private String account_number;
-        private String invoice_id;
+        private double subtotal_other;
+        private String other_gst;
+        private int invoice_id;
         private String invoice_no;
         private int status;
 
@@ -101,6 +105,14 @@ public class InvoiceDetailBean extends Domine{
             this.abn = abn;
         }
 
+        public String getAcn() {
+            return acn;
+        }
+
+        public void setAcn(String acn) {
+            this.acn = acn;
+        }
+
         public String getPhone() {
             return phone;
         }
@@ -117,20 +129,20 @@ public class InvoiceDetailBean extends Domine{
             this.address = address;
         }
 
-        public long getDate() {
+        public int getDate() {
             return date;
         }
 
-        public void setDate(long date) {
+        public void setDate(int date) {
             this.date = date;
         }
 
-        public String getForX() {
-            return forX;
+        public String getFors() {
+            return fors;
         }
 
-        public void setForX(String forX) {
-            this.forX = forX;
+        public void setFors(String fors) {
+            this.fors = fors;
         }
 
         public String getDescription() {
@@ -149,12 +161,20 @@ public class InvoiceDetailBean extends Domine{
             this.amount = amount;
         }
 
-        public String getSubtotal() {
+        public double getSubtotal() {
             return subtotal;
         }
 
-        public void setSubtotal(String subtotal) {
+        public void setSubtotal(double subtotal) {
             this.subtotal = subtotal;
+        }
+
+        public String getGst() {
+            return gst;
+        }
+
+        public void setGst(String gst) {
+            this.gst = gst;
         }
 
         public int getIs_gst() {
@@ -205,11 +225,27 @@ public class InvoiceDetailBean extends Domine{
             this.account_number = account_number;
         }
 
-        public String getInvoice_id() {
+        public double getSubtotal_other() {
+            return subtotal_other;
+        }
+
+        public void setSubtotal_other(double subtotal_other) {
+            this.subtotal_other = subtotal_other;
+        }
+
+        public String getOther_gst() {
+            return other_gst;
+        }
+
+        public void setOther_gst(String other_gst) {
+            this.other_gst = other_gst;
+        }
+
+        public int getInvoice_id() {
             return invoice_id;
         }
 
-        public void setInvoice_id(String invoice_id) {
+        public void setInvoice_id(int invoice_id) {
             this.invoice_id = invoice_id;
         }
 

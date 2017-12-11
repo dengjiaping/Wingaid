@@ -1,455 +1,35 @@
 [
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_volume_progress_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_volume_progress_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_normal.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_normal.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_loading.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_loading.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_right.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_right.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/selector_pickerview_btn.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/drawable/selector_pickerview_btn.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_fab_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_volume_progress_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_volume_progress_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_dialog_progress_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_error_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_error_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/text_indicator.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/photopicker/build/intermediates/bundles/debug/res/drawable/text_indicator.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_left.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_left.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_thumb.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_pressed.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_pressed.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_pressed.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_pressed.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_bg.9.png"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_pause_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_pause_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/list_item_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/list_item_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_loading.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_loading.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_pause_selector.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_pause_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_dialog_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_play_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_play_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_title_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_title_bg.9.png"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_password_eye.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_dialog_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_right.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_right.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_normal.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_normal.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_error_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_error_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_title_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_title_bg.9.png"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_tiny_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_tiny_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_volume_progress_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_volume_progress_bg.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_fab_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_fab_background.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_progress.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_progress.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_fab_background.xml",
@@ -464,296 +44,88 @@
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress_bg.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_dialog_progress_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/list_item_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/list_item_selector.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_pressed.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_pressed.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_play_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_play_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_bg.9.png"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_bg.9.png"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_loading.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_loading.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_pause_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_pause_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/container_dropshadow.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/container_dropshadow.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/container_dropshadow.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/container_dropshadow.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_thumb.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_left.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_left.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/list_item_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/list_item_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/text_indicator.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/photopicker/build/intermediates/bundles/debug/res/drawable/text_indicator.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/text_indicator.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/debug/res/drawable/text_indicator.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_tiny_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_tiny_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_password_eye.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_progress.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_progress.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_selector.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_left.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_left.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_error_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_error_selector.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/selector_pickerview_btn.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/drawable/selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_go_search_api_material.xml",
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_thumb.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_thumb.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_bg.9.png",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_bg.9.png"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/container_dropshadow.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/container_dropshadow.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_loading.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_loading.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_tick_mark_material.xml",
@@ -764,16 +136,24 @@
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_bottom.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_title_bg.9.png",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_title_bg.9.png"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_left.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/container_dropshadow.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/container_dropshadow.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_selector.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_selector.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
@@ -784,56 +164,64 @@
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_vector_test.xml"
     },
     {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_thumb.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_thumb.xml"
+    },
+    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_play_selector.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_play_selector.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_volume_progress_bg.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_volume_progress_bg.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_bottom_seek_progress.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_progress.xml"
     },
     {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_pressed.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_pressed.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_snackbar_background.xml"
+    },
+    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_right.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_right.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_top.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_top.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -844,16 +232,16 @@
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_right.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_right.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_normal.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_normal.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/selector_pickerview_btn.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/drawable/selector_pickerview_btn.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_radio_material.xml",
@@ -864,39 +252,51 @@
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_error_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_error_selector.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_title_bg.9.png",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_title_bg.9.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/design_password_eye.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_password_eye.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_seek_thumb_normal.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_normal.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/text_indicator.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/debug/res/drawable/text_indicator.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/default_scroll_handle_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_tiny_selector.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_tiny_selector.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/androidTest/debug/drawable/selector_pickerview_btn.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/drawable/selector_pickerview_btn.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/jc_click_back_tiny_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_tiny_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/androidTest/debug/drawable/list_item_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/list_item_selector.xml"
     }
 ]

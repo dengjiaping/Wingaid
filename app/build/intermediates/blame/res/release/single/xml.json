@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/xml/file_paths.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/xml/provider_paths.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/res/xml/provider_paths.xml"
+    }
+]

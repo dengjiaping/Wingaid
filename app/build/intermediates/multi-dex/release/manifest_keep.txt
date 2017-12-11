@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:96
+-keep class com.yd.org.sellpopularizesystem.application.BaseApplication { <init>(...); }
+

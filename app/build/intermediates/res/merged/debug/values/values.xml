@@ -17275,7 +17275,6 @@
     <string name="all_image">所有图片</string>
     <string name="app_exit">再按一次退出程序</string>
     <string name="app_name">赢家</string>
-    <string name="app_name_beta">Wingaid beta</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apply_contract">申请合同</string>
     <string name="apply_time">申请时间:</string>
@@ -17309,6 +17308,7 @@
     <string name="bindthreeaccount">绑定第三方账号</string>
     <string name="birthday">生日</string>
     <string name="blank_space">  </string>
+    <string name="booking">预定中</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="builder">建筑商:</string>
     <string name="building_price">建筑价格</string>
@@ -17445,11 +17445,11 @@
     <string name="declare"><![CDATA[<<定金支付申明>>]]></string>
     <string name="declaretitle">用户定金支付申明</string>
     <string name="declaretitle_01">定金申明</string>
+    <string name="default_com">默认</string>
     <string name="delete">删除</string>
     <string name="deleted_a_photo">删除了一张图片</string>
     <string name="deposit">定金已支付</string>
-    <string name="deposit_declare"><Data><![CDATA[
-        If you have any questions regarding this tax invoice , please report it to the accounting staff via email <br> <font color="#4898F1">finance@maclandgroup.com.au.</font> </br> <br>Thank you for your support!</br>
+    <string name="deposit_declare"><Data><![CDATA[If you have any questions regarding this tax invoice , please report it to the accounting staff via email <br> <font color="#4898F1">finance@maclandgroup.com.au.</font> </br> <br>Thank you for your support!</br>
     ]]></Data></string>
     <string name="deposit_hint">请签名或选择日期</string>
     <string name="des">描述</string>
@@ -17515,7 +17515,7 @@
     <string name="firstname">姓氏</string>
     <string name="firstname_ensure">姓名必须以字母开头</string>
     <string name="fistnamenonull">姓不能为空</string>
-    <string name="fiveroom">五室</string>
+    <string name="fiveroom">五房</string>
     <string name="floor">楼层</string>
     <string name="floorphoto">平面图</string>
     <string name="floortype">楼层类型</string>
@@ -17785,10 +17785,10 @@
     <string name="reset">重置</string>
     <string name="resolute">拒绝</string>
     <string name="retry_large_image"><u>加载失败，点击重试</u></string>
-    <string name="roomfour">四室</string>
-    <string name="roomone">一室</string>
-    <string name="roomthree">三室</string>
-    <string name="roomtwo">二室</string>
+    <string name="roomfour">四房</string>
+    <string name="roomone">一房</string>
+    <string name="roomthree">三房</string>
+    <string name="roomtwo">二房</string>
     <string name="s_0">尊敬的客户</string>
     <string name="s_00">Dear Purchaser</string>
     <string name="s_1"> 恭喜您通过赢家平台预定了此物业。 每套物业的预定费是300 澳币 （ 或者2000 人民币）。 请使用下列方式中的任意一种来支付。</string>

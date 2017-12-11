@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/MatchMatch"
+                android:background="@color/search_edit_bac">
+
+    <LinearLayout
+        android:background="@color/white"
+        style="@style/MatchWrap.Vertical">
+
+        <TextView
+            android:id="@+id/oldes"
+            style="@style/WrapWrap"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_margin_16"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:text="@string/inputoldpassword"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+
+
+        <RelativeLayout
+            style="@style/WrapWrap"
+            android:layout_marginTop="@dimen/padding_margin_10">
+
+            <ImageView
+                android:id="@+id/ivLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_14"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:layout_marginTop="@dimen/padding_margin_14"
+                android:src="@mipmap/lock1"/>
+
+            <EditText
+                android:id="@+id/oldPassWord"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_40"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_toRightOf="@+id/ivLock"
+                android:background="@drawable/editbac"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_4"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/newdes"
+            style="@style/WrapWrap"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_margin_16"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:text="@string/input_new_password"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+
+        <RelativeLayout
+            style="@style/WrapWrap">
+
+            <ImageView
+                android:id="@+id/ivLock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_14"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:layout_marginTop="@dimen/padding_margin_14"
+                android:src="@mipmap/lock1"/>
+
+            <EditText
+                android:id="@+id/newPassWord"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_40"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_toRightOf="@+id/ivLock1"
+                android:background="@drawable/editbac"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_4"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/condes"
+            style="@style/WrapWrap"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_margin_16"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:text="@string/confirm_new_password"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+
+        <RelativeLayout style="@style/WrapWrap">
+
+            <ImageView
+                android:id="@+id/ivLock2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_14"
+                android:layout_marginLeft="@dimen/padding_margin_14"
+                android:layout_marginTop="@dimen/padding_margin_14"
+                android:src="@mipmap/lock1"/>
+
+            <EditText
+                android:id="@+id/surePassWord"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_margin_40"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_toRightOf="@+id/ivLock2"
+                android:background="@drawable/editbac"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/padding_margin_4"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/sureChangeTextview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_margin_50"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/padding_margin_20"
+            android:layout_marginLeft="@dimen/padding_margin_14"
+            android:layout_marginRight="@dimen/padding_margin_10"
+            android:layout_marginTop="@dimen/padding_margin_30"
+            android:background="@drawable/button_bac"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_15"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

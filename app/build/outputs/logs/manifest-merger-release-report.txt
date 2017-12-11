@@ -1,0 +1,1478 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:108:9-116:20
+	android:grantUriPermissions
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:112:13-47
+	android:authorities
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:110:13-64
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:109:13-67
+manifest
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+MERGED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-18:12
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jude:rollviewpager:1.4.6] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rollviewpager-1.4.6.aar/dd3bb9d78c83e6bcc88acb51b983ce97/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/19b6e158f7e903336573565a227f0788/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.7.0-beta.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.7.0.aar/cfc3490b318de55c8e86d759d086206c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/af297e3b66cc34d9fc80f470827a49b4/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/AndroidManifest.xml:2:1-10:12
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:17:1-31:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/643013223c28b8c55083dc468a6704e2/AndroidManifest.xml:2:1-11:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/8e3b926dc7ebc984ed5a710344db533d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:2:1-100:12
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:2:1-207:12
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/2a85422bb4ed606f9c788da8ea347e4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:2:1-16:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/371b1534cac4eb9ccd82581a79378a5d/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/20580ed7cdd9b2ee127be76afe6d98e6/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+	package
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:4:11-52
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READER_EXTERNAL_STORAGE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:11:22-79
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:13:5-80
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-81
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-81
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:18:5-81
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:18:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:16:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:16:5-78
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-79
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/AndroidManifest.xml:11:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/AndroidManifest.xml:11:5-79
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:13:5-79
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:18:5-75
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:15:5-76
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:15:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:14:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:14:5-76
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:10:5-76
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:20:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:22:5-75
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:14:5-76
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:24:5-66
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:14:5-67
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:14:5-67
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:11:5-67
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:11:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:12:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:25:5-83
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-84
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:25:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:27:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:15:5-68
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:27:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:29:5-74
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:12:5-75
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:12:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:11:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:11:5-75
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:11:5-75
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:29:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:30:5-65
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:19:5-66
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:30:22-63
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:31:22-66
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:34:5-72
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:34:22-70
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:35:5-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:35:22-66
+uses-permission#android.permission.CAMERA
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:36:5-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:36:22-62
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:37:5-74
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:37:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:38:5-80
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:17:5-81
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:38:22-78
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:39:5-74
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:39:22-72
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:41:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:42:5-87
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:42:22-85
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:43:5-75
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:43:22-73
+uses-permission#baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.cheerychina.ipisa
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:45:5-105
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:45:22-103
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:48:5-71
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:48:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:49:5-72
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:49:22-70
+uses-feature#android.hardware.camera
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:51:5-59
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:51:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:53:5-69
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:53:19-67
+uses-permission#andorid.permission.CHANGE_CONFIGURATION
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:55:5-78
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:55:22-76
+uses-permission#android.permission.ACCESS_NETWORK
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:56:5-72
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:56:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:58:5-71
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:58:22-69
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:59:5-61:46
+	tools:ignore
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:61:9-44
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:60:9-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:64:5-67
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:16:5-68
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:64:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:65:5-67
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:20:5-68
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:65:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:67:5-67
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:67:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:68:5-73
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:68:22-71
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:70:5-77
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:23:5-78
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:70:22-75
+uses-permission#getui.permission.GetuiService.com.yd.org.sellpopularizesystem
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:71:5-100
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:26:5-86
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:71:22-98
+permission#getui.permission.GetuiService.com.yd.org.sellpopularizesystem
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:73:5-75:43
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:28:5-30:44
+	android:protectionLevel
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:75:9-41
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:74:9-85
+supports-screens
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:78:5-83:38
+	android:largeScreens
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:80:9-36
+	android:smallScreens
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:83:9-36
+	android:normalScreens
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:81:9-38
+	android:resizeable
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:82:9-34
+	android:anyDensity
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:79:9-34
+uses-feature#0x00020000
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:86:5-88:34
+	android:glEsVersion
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:87:9-41
+	android:required
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:88:9-32
+application
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:90:5-374:19
+MERGED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-16:19
+MERGED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-16:19
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-20:19
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-20:19
+MERGED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/af297e3b66cc34d9fc80f470827a49b4/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/af297e3b66cc34d9fc80f470827a49b4/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/643013223c28b8c55083dc468a6704e2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/643013223c28b8c55083dc468a6704e2/AndroidManifest.xml:9:5-20
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:32:5-98:19
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:32:5-98:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:19:5-205:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:19:5-205:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:10:5-15:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:10:5-15:19
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:13:5-14:19
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:13:5-14:19
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:96:9-35
+	android:label
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:95:9-41
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:93:9-32
+	android:icon
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:94:9-35
+	android:allowBackup
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:92:9-35
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:97:9-44
+	tools:replace
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:98:9-37
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:91:9-52
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:99:9-101:63
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:101:13-61
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:100:13-50
+meta-data#PGYER_APPID
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:104:9-106:63
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:106:13-61
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:105:13-39
+activity#com.yd.org.sellpopularizesystem.activity.StartActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:118:9-126:20
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:120:13-45
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:119:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:121:13-125:29
+action#android.intent.action.MAIN
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:122:17-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:122:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:124:17-76
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:124:27-74
+activity#com.yd.org.sellpopularizesystem.activity.CustomeActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:127:9-129:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:128:13-53
+activity#com.yd.org.sellpopularizesystem.activity.ScaleActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:130:9-133:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:132:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:133:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:131:13-51
+activity#com.yd.org.sellpopularizesystem.activity.LoginActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:134:9-137:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:136:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:137:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:135:13-51
+activity#com.yd.org.sellpopularizesystem.activity.HomeActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:138:9-141:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:141:13-49
+	android:launchMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:140:13-44
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:139:13-50
+activity#com.yd.org.sellpopularizesystem.activity.GuideActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:142:9-144:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:143:13-51
+activity#com.yd.org.sellpopularizesystem.activity.LearningGardenActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:145:9-147:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:147:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:146:13-60
+activity#com.yd.org.sellpopularizesystem.activity.SettingActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:148:9-150:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:149:13-53
+activity#com.yd.org.sellpopularizesystem.activity.ChangePassWordActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:151:9-153:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:152:13-60
+activity#com.yd.org.sellpopularizesystem.activity.CustomDetailedActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:154:9-157:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:156:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:157:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:155:13-60
+activity#com.yd.org.sellpopularizesystem.clippicture.ClipPictureActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:158:9-68
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:158:19-66
+activity#com.yd.org.sellpopularizesystem.activity.StudyDetailaActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:159:9-163:73
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:162:13-50
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:161:13-63
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:163:13-71
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:160:13-58
+activity#com.yd.org.sellpopularizesystem.activity.ScaleDeltaileActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:164:9-168:73
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:167:13-50
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:166:13-74
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:168:13-71
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:165:13-59
+activity#com.yd.org.sellpopularizesystem.activity.ScalListActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:169:9-171:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:171:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:170:13-54
+activity#com.yd.org.sellpopularizesystem.activity.InvestigationActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:172:9-174:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:173:13-59
+activity#com.yd.org.sellpopularizesystem.activity.ExaminationActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:175:9-177:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:176:13-57
+activity#com.yd.org.sellpopularizesystem.activity.GradeActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:178:9-180:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:179:13-51
+activity#com.yd.org.sellpopularizesystem.activity.NotificationActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:181:9-183:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:182:13-58
+activity#com.yd.org.sellpopularizesystem.activity.InformationContentActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:184:9-186:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:185:13-64
+activity#com.yd.org.sellpopularizesystem.activity.SaleRecordActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:187:9-189:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:189:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:188:13-56
+activity#com.yd.org.sellpopularizesystem.activity.MapActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:190:9-192:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:192:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:191:13-49
+activity#com.yd.org.sellpopularizesystem.wxapi.WXEntryActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:193:9-198:74
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:197:13-49
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:196:13-36
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:195:13-74
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:198:13-72
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:194:13-50
+meta-data#UMENG_APPKEY
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:200:9-206:21
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:202:13-53
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:201:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:203:13-205:40
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:205:17-38
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:204:17-45
+activity#com.yd.org.sellpopularizesystem.activity.ProductSubunitListActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:208:9-210:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:209:13-64
+activity#com.yd.org.sellpopularizesystem.activity.ProductItemDetailActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:211:9-213:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:212:13-63
+activity#com.yd.org.sellpopularizesystem.activity.MyTeamActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:214:9-216:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:215:13-52
+activity#com.yd.org.sellpopularizesystem.activity.ProductSubItemDetailActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:217:9-219:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:218:13-66
+activity#com.yd.org.sellpopularizesystem.activity.ReserveActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:220:9-223:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:222:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:223:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:221:13-53
+activity#com.yd.org.sellpopularizesystem.activity.SaleReceiveNoticeActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:224:9-226:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:225:13-63
+activity#com.yd.org.sellpopularizesystem.activity.CusOprateRecordActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:227:9-229:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:228:13-61
+activity#com.yd.org.sellpopularizesystem.activity.DialogOptionActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:230:9-234:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:232:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:234:13-64
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:233:13-47
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:231:13-58
+activity#com.yd.org.sellpopularizesystem.activity.BuildingPlanActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:235:9-238:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:237:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:238:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:236:13-58
+activity#com.yd.org.sellpopularizesystem.activity.FilterActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:239:9-241:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:240:13-52
+activity#com.yd.org.sellpopularizesystem.activity.SelectConditionActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:242:9-244:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:243:13-61
+activity#com.yd.org.sellpopularizesystem.activity.LawyerActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:245:9-247:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:247:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:246:13-52
+activity#com.yd.org.sellpopularizesystem.activity.LawyerAddActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:248:9-250:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:250:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:249:13-55
+activity#com.yd.org.sellpopularizesystem.activity.ImageShowActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:251:9-254:49
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:253:13-49
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:254:13-47
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:252:13-55
+meta-data#PUSH_APPID
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:257:9-259:53
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:35:9-37:47
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:35:9-37:47
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:259:13-51
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:258:13-38
+meta-data#PUSH_APPKEY
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:260:9-262:53
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:38:9-40:48
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:38:9-40:48
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:262:13-51
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:261:13-39
+meta-data#PUSH_APPSECRET
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:263:9-265:53
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:41:9-43:51
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:41:9-43:51
+	android:value
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:265:13-51
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:264:13-42
+service#com.yd.org.sellpopularizesystem.getui.IntentService
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:269:9-55
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:269:18-53
+service#com.yd.org.sellpopularizesystem.getui.PushService
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:272:9-276:45
+	android:process
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:276:13-43
+	android:label
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:275:13-40
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:274:13-36
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:273:13-46
+activity#com.yd.org.sellpopularizesystem.activity.CommissionActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:279:9-281:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:281:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:280:13-56
+activity#com.yd.org.sellpopularizesystem.activity.OldProjectActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:282:9-284:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:284:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:283:13-56
+activity#com.yd.org.sellpopularizesystem.activity.InvestigateListActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:285:9-287:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:287:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:286:13-61
+activity#com.yd.org.sellpopularizesystem.activity.PromotionRecordActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:288:9-290:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:290:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:289:13-61
+activity#com.yd.org.sellpopularizesystem.activity.ProjectPromotionActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:291:9-293:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:293:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:292:13-62
+activity#com.yd.org.sellpopularizesystem.activity.FileActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:294:9-296:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:296:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:295:13-50
+activity#com.yd.org.sellpopularizesystem.activity.PDFActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:297:9-299:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:299:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:298:13-49
+activity#com.yd.org.sellpopularizesystem.activity.PaymentQrActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:300:9-302:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:302:13-49
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:301:13-55
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:303:9-307:49
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:307:13-47
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:306:13-37
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:305:13-74
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:304:13-60
+activity#com.yd.org.sellpopularizesystem.wxapi.WXPayEntryActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:310:9-314:49
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:314:13-47
+	android:exported
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:313:13-36
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:312:13-74
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:311:13-53
+activity#com.yd.org.sellpopularizesystem.activity.StudySubitemActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:315:9-66
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:315:19-64
+activity#com.yd.org.sellpopularizesystem.activity.IntroduceActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:316:9-63
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:316:19-61
+activity#com.yd.org.sellpopularizesystem.activity.OrderDetailActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:317:9-65
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:317:19-63
+activity#com.yd.org.sellpopularizesystem.activity.VideoActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:318:9-321:51
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:321:13-49
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:320:13-74
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:319:13-51
+activity#com.yd.org.sellpopularizesystem.activity.DeclareActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:322:9-61
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:322:19-59
+activity#com.yd.org.sellpopularizesystem.activity.MyCertificateActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:323:9-325:66
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:325:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:324:13-59
+activity#com.yd.org.sellpopularizesystem.activity.InvoiceActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:326:9-61
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:326:19-59
+receiver#com.yd.org.sellpopularizesystem.activity.MyBroadCastReciver
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:328:9-335:20
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:328:19-62
+intent-filter#cn.wps.moffice.file.close+com.kingsoft.writer.back.key.down+com.kingsoft.writer.back.key.down+com.kingsoft.writer.home.key.down
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:329:13-334:29
+action#com.kingsoft.writer.back.key.down
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:330:17-75
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:330:25-73
+action#cn.wps.moffice.file.close
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:331:17-67
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:331:25-65
+action#com.kingsoft.writer.home.key.down
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:333:17-75
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:333:25-73
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:338:9-341:63
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:22:9-26:56
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:22:9-26:56
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:340:13-81
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:341:13-61
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:339:13-66
+activity#com.yd.org.sellpopularizesystem.activity.MyInfoActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:342:9-344:66
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:344:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:343:13-52
+activity#com.yd.org.sellpopularizesystem.activity.UserAdressActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:345:9-347:66
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:347:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:346:13-56
+activity#com.yd.org.sellpopularizesystem.activity.BankActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:348:9-350:66
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:350:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:349:13-50
+activity#com.yd.org.sellpopularizesystem.activity.InviteQRActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:351:9-62
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:351:19-60
+activity#com.yd.org.sellpopularizesystem.activity.MySalesActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:352:9-61
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:352:19-59
+activity#com.yd.org.sellpopularizesystem.activity.ComPanyActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:353:9-355:66
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:355:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:354:13-53
+activity#com.lidong.photopicker.PhotoPickerActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:356:9-359:54
+	android:configChanges
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:358:13-59
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:359:13-52
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:357:13-70
+activity#com.lidong.photopicker.PhotoPreviewActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:360:9-362:54
+	android:theme
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:362:13-52
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:361:13-71
+activity#com.yd.org.sellpopularizesystem.activity.DepositActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:363:9-366:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:365:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:366:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:364:13-53
+activity#com.yd.org.sellpopularizesystem.activity.RegistSalersActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:367:9-370:66
+	android:screenOrientation
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:369:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:370:13-64
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:368:13-58
+activity#com.yd.org.sellpopularizesystem.activity.RegisterAgreementActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:371:9-71
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:371:19-69
+activity#com.yd.org.sellpopularizesystem.activity.EOIActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:372:9-57
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:372:19-55
+activity#com.yd.org.sellpopularizesystem.activity.ContactsActivity
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:373:9-62
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:373:19-60
+uses-sdk
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+MERGED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rxeasyhttp] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/rxeasyhttp/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:21:5-23:62
+MERGED from [com.jude:rollviewpager:1.4.6] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rollviewpager-1.4.6.aar/dd3bb9d78c83e6bcc88acb51b983ce97/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jude:rollviewpager:1.4.6] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rollviewpager-1.4.6.aar/dd3bb9d78c83e6bcc88acb51b983ce97/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/19b6e158f7e903336573565a227f0788/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/19b6e158f7e903336573565a227f0788/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:2.7.0-beta.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.7.0-beta.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.7.0.aar/cfc3490b318de55c8e86d759d086206c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.7.0.aar/cfc3490b318de55c8e86d759d086206c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/af297e3b66cc34d9fc80f470827a49b4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/af297e3b66cc34d9fc80f470827a49b4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:18:5-42
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/AndroidManifest.xml:6:5-8:41
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/AndroidManifest.xml:7:5-9:41
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:21:5-23:54
+MERGED from [com.contrarywind:Android-PickerView:3.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/643013223c28b8c55083dc468a6704e2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/643013223c28b8c55083dc468a6704e2/AndroidManifest.xml:5:5-7:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/8e3b926dc7ebc984ed5a710344db533d/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/8e3b926dc7ebc984ed5a710344db533d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/2a85422bb4ed606f9c788da8ea347e4c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/2a85422bb4ed606f9c788da8ea347e4c/AndroidManifest.xml:20:5-43
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:6:5-8:41
+MERGED from [com.pgyersdk:sdk:2.8.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.8.1.aar/24d95dd29057c5fbac0cd4cddcce0540/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/371b1534cac4eb9ccd82581a79378a5d/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/371b1534cac4eb9ccd82581a79378a5d/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/20580ed7cdd9b2ee127be76afe6d98e6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/20580ed7cdd9b2ee127be76afe6d98e6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:113:13-115:53
+	android:resource
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:115:17-51
+	android:name
+		ADDED from /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/AndroidManifest.xml:114:17-67
+activity#com.lidong.photopicker.permission.AcpActivity
+ADDED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:12:9-15:56
+	android:launchMode
+		ADDED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:14:13-44
+	android:theme
+		ADDED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:photopicker] /Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/manifests/full/release/AndroidManifest.xml:13:13-73
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/f4c64cfeb489861b28834cc000f34651/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/61853538dca96e321c007d10e1427055/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/20580ed7cdd9b2ee127be76afe6d98e6/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/20580ed7cdd9b2ee127be76afe6d98e6/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/6db5aadfff705ca35582ba421b52983a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/430dc24c0242b2747041ceaf0f6bcd47/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/fe24f03a8c314b38edff6de45a8fd30d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/69c96a42f9f1c1b31eaa7c662c349d31/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1e115dbfdc8b3e7d0be41143f8965ef0/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d4b0403ceb68d02f49581485d03c2c84/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/d2e38828d85676441b4701650466375f/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/AndroidManifest.xml:26:9-47
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/c5b224a903b484dd210ff34e77ce6b20/AndroidManifest.xml:22:13-58
+uses-permission#getui.permission.GetuiService.${applicationId}
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:26:5-86
+permission#getui.permission.GetuiService.${applicationId}
+MERGED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:28:5-30:44
+service#com.igexin.sdk.PushService
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:46:9-54:19
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:50:13-43
+	android:label
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:49:13-47
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:47:13-54
+intent-filter#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:51:13-53:29
+action#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:52:17-80
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:52:25-77
+receiver#com.igexin.sdk.PushReceiver
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:56:9-66:20
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:56:19-61
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:57:13-65:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:58:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:59:17-79
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:59:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:60:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:61:17-74
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:61:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:62:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:63:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:64:25-87
+activity#com.igexin.sdk.PushActivity
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:68:9-74:75
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:72:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:70:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:71:13-37
+	android:theme
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:74:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:73:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:69:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:75:9-81:75
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:79:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:77:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:78:13-36
+	android:theme
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:81:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:80:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:76:13-52
+service#com.igexin.download.DownloadService
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:83:9-85:46
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:85:13-43
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:84:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:87:9-91:20
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:87:19-70
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:88:13-90:29
+provider#com.igexin.download.DownloadProvider
+ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:93:9-97:46
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:97:13-43
+	android:authorities
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:95:13-61
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/sdk-2.10.2.0.aar/6c6eeea35194b25cd241590cdfd07adf/AndroidManifest.xml:94:13-64
+provider#com.tencent.bugly.beta.utils.BuglyFileProvider
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:28:9-38:20
+	android:grantUriPermissions
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:32:13-47
+	android:authorities
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:30:13-64
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:31:13-37
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:29:13-74
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:41:13-77
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:44:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:44:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:45:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:45:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:46:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:46:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:47:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:47:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:48:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:48:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:49:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:49:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:50:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:50:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:51:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:51:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:52:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:52:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:53:9-95
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:53:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:54:9-56:64
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:56:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:55:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:57:9-59:64
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:59:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:58:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:60:9-62:64
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:62:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:61:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:63:9-65:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:65:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:64:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:66:9-68:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:68:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:67:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:69:9-71:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:71:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:70:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:72:9-74:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:74:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:73:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:75:9-77:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:77:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:76:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:78:9-80:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:80:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:79:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:81:9-83:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:82:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:84:9-86:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:86:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:85:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:87:9-89:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:89:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:88:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:90:9-92:46
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:92:13-43
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:91:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:93:9-96:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:95:13-43
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:96:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:94:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:97:9-100:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:99:13-43
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:100:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:98:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:101:9-104:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:103:13-43
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:104:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:102:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:105:9-107:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:106:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:108:9-110:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:109:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:111:9-113:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:112:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:114:9-116:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:116:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:115:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:117:9-119:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:119:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:118:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:120:9-122:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:121:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:123:9-125:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:124:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:126:9-128:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:128:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:127:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:129:9-131:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:131:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:130:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:132:9-134:47
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:133:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:135:9-138:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:137:13-44
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:138:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:136:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:139:9-142:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:141:13-44
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:142:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:140:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:143:9-146:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:145:13-44
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:146:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:144:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:147:9-149:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:149:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:148:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:150:9-152:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:152:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:151:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:153:9-155:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:155:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:154:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:156:9-158:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:158:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:157:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:159:9-161:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:161:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:160:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:162:9-164:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:164:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:163:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:165:9-167:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:167:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:166:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:168:9-170:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:170:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:169:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:171:9-173:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:173:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:172:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:174:9-176:51
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:176:13-48
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:175:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:177:9-180:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:179:13-48
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:180:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:178:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:181:9-184:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:183:13-48
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:184:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:182:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:185:9-188:64
+	android:launchMode
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:187:13-48
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:188:13-61
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:186:13-87
+meta-data#tinker_version
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:190:9-192:37
+	android:value
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:192:13-34
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:191:13-42
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:194:9-197:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:197:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:196:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:195:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:198:9-201:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:201:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:200:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:199:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:202:9-204:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:204:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.4] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.4.aar/9609ee0f462474b6a06e84367a0abbc8/AndroidManifest.xml:203:13-85
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.8.2] /Users/e-dot/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.8.2.aar/8c24e3783ce3ae519fbbe4e123024b89/AndroidManifest.xml:12:13-70

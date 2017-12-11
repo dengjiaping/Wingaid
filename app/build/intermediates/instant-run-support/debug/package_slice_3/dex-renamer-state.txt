@@ -1,4 +1,4 @@
-#Thu Dec 07 12:50:49 CST 2017
-base.0=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/transforms/dexMerger/debug/3
+#Mon Dec 11 16:56:12 CST 2017
+base.0=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex

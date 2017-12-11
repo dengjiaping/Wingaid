@@ -1,7 +1,6 @@
 package com.yd.org.sellpopularizesystem.fragment;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -30,7 +29,7 @@ import java.util.List;
 public class CommissionFragment extends BaseFragmentView implements PullToRefreshLayout
         .OnRefreshListener {
     private int cate_id, page = 1;
-    private List<CommissionsBean.ResultBean.DatasBean> datas = new ArrayList<>();
+    private List<CommissionsBean.ResultBean> datas = new ArrayList<>();
     private PullToRefreshLayout ptrl;
     private PullableListView listView;
     private CommissionAdapter commissionAdapter;
@@ -38,9 +37,14 @@ public class CommissionFragment extends BaseFragmentView implements PullToRefres
 
     private TextView tvTotalMoney, tvSureSum, tvUnsureSum;
 
+    public  static CommissionFragment sCommissionFragment;
+
+
     @Override
     protected void initView(Bundle savedInstanceState) {
+
         setContentView(R.layout.fragment_notific);
+        sCommissionFragment=this;
         initViews();
     }
 
@@ -59,43 +63,73 @@ public class CommissionFragment extends BaseFragmentView implements PullToRefres
         listView = getViewById(R.id.content_view);
 
         nitLinear = getViewById(R.id.nitLinear);
-        nitLinear.setVisibility(View.VISIBLE);
+        nitLinear.setVisibility(View.GONE);
 
 
-        getInfo(1, true, cate_id);
+        //getInfo(1, true, cate_id);
+        getInfo(1, true);
     }
 
-    private void getInfo(int i, final boolean isRefresh, int cate_id) {
-        EasyHttp.get(Contants.COMMOSSION_LIST).
-                cacheMode(CacheMode.DEFAULT)
+//    private void getInfo(int i, final boolean isRefresh, int cate_id) {
+//        EasyHttp.get(Contants.COMMOSSION_LIST).
+//                cacheMode(CacheMode.DEFAULT)
+//                .headers("Cache-Control", "max-age=0")
+//                .timeStamp(true).params("sale_id", SharedPreferencesHelps.getUserID())//销售的id
+//                .params("type", cate_id + "")//佣金类型 / optional default 0 / 0:所有佣金 1:个人佣金 2： 领导拥金
+//                .params("page", page + "")
+//                .params("number", "100")
+//                .execute(new SimpleCallBack<String>() {
+//                    @Override
+//                    public void onStart() {
+//                        super.onStart();
+//                        showLoadingDialog();
+//
+//                    }
+//
+//                    @Override
+//                    public void onError(ApiException e) {
+//                        dismissLoadingDialog();
+//                        Log.e("onError", "onError:" + e.getCode() + ";;" + e.getMessage());
+//                    }
+//
+//                    @Override
+//                    public void onSuccess(String json) {
+//                        dismissLoadingDialog();
+//                        paserJSON(json, isRefresh);
+//
+//                    }
+//                });
+//
+//    }
+
+    private void getInfo(int page, final boolean isRefresh) {
+        EasyHttp.get(Contants.COMMOSSION_LIST).cacheMode(CacheMode.DEFAULT)
                 .headers("Cache-Control", "max-age=0")
-                .timeStamp(true).params("sale_id", SharedPreferencesHelps.getUserID())//销售的id
-                .params("type", cate_id + "")//佣金类型 / optional default 0 / 0:所有佣金 1:个人佣金 2： 领导拥金
+                .timeStamp(true)
+                .params("user_id", SharedPreferencesHelps.getUserID())
+                .params("customer_id", "")
                 .params("page", page + "")
-                .params("number", "100")
-                .execute(new SimpleCallBack<String>() {
-                    @Override
-                    public void onStart() {
-                        super.onStart();
-                        showLoadingDialog();
+                .params("number", "100").execute(new SimpleCallBack<String>() {
+            @Override
+            public void onStart() {
+                super.onStart();
+                showLoadingDialog();
+            }
 
-                    }
+            @Override
+            public void onError(ApiException e) {
+                dismissLoadingDialog();
+            }
 
-                    @Override
-                    public void onError(ApiException e) {
-                        dismissLoadingDialog();
-                        Log.e("onError", "onError:" + e.getCode() + ";;" + e.getMessage());
-                    }
-
-                    @Override
-                    public void onSuccess(String json) {
-                        dismissLoadingDialog();
-                        paserJSON(json, isRefresh);
-
-                    }
-                });
+            @Override
+            public void onSuccess(String json) {
+                dismissLoadingDialog();
+                paserJSON(json, isRefresh);
+            }
+        });
 
     }
+
 
     private void paserJSON(String json, boolean isRefresh) {
         CommissionsBean commission = null;
@@ -104,7 +138,7 @@ public class CommissionFragment extends BaseFragmentView implements PullToRefres
             Gson s = new Gson();
             commission = s.fromJson(json, CommissionsBean.class);
             if (commission.getCode() == 1) {
-                datas = commission.getResult().getDatas();
+                datas = commission.getResult();
             }
             if (isRefresh) {
 
@@ -113,9 +147,9 @@ public class CommissionFragment extends BaseFragmentView implements PullToRefres
                     listView.setVisibility(View.GONE);
                 } else {
                     //设置金额
-                    tvTotalMoney.setText(commission.getResult().getAmount() + "");
-                    tvSureSum.setText(commission.getResult().getChecked() + "");
-                    tvUnsureSum.setText(commission.getResult().getUnchecked() + "");
+                    //  tvTotalMoney.setText(commission.getResult().getAmount() + "");
+                    // tvSureSum.setText(commission.getResult().getChecked() + "");
+                    //tvUnsureSum.setText(commission.getResult().getUnchecked() + "");
 
 
                     //初始化ListView
@@ -172,14 +206,17 @@ public class CommissionFragment extends BaseFragmentView implements PullToRefres
     public void onRefresh(PullToRefreshLayout pullToRefreshLayout) {
         ptrl.refreshFinish(PullToRefreshLayout.SUCCEED);
         page = 1;
-        getInfo(page, true, cate_id);
+        //getInfo(page, true, cate_id);
+        getInfo(page, true);
     }
 
     @Override
     public void onLoadMore(PullToRefreshLayout pullToRefreshLayout) {
         page++;
         ptrl.loadmoreFinish(PullToRefreshLayout.SUCCEED);
-        getInfo(page, false, cate_id);
+        // getInfo(page, false, cate_id);
+        getInfo(page, false);
 
     }
+
 }

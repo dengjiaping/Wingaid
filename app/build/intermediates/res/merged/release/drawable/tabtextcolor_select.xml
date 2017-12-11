@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--非选中-->
+    <item  android:color="#6E7D83" android:state_selected="false" /><!-- 未点击时的颜色 -->
+    <!--选中-->
+    <item  android:color="@color/redyellow" android:state_selected="true"/><!-- 点击后的颜色 -->
+   
+</selector>

@@ -1,3 +1,4 @@
+
 package com.yd.org.sellpopularizesystem.adapter;
 
 import android.content.Context;
@@ -14,6 +15,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.yd.org.sellpopularizesystem.R;
 import com.yd.org.sellpopularizesystem.activity.CommissionActivity;
 import com.yd.org.sellpopularizesystem.activity.InvoiceActivity;
@@ -32,9 +34,6 @@ import com.zhouyou.http.callback.SimpleCallBack;
 import com.zhouyou.http.exception.ApiException;
 import com.zhouyou.http.model.HttpParams;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +43,7 @@ import java.util.List;
  */
 
 public class CommissionAdapter extends BaseAdapter {
-    private List<CommissionsBean.ResultBean.DatasBean> datas = new ArrayList<>();
+    private List<CommissionsBean.ResultBean> datas = new ArrayList<>();
     private Context mContext;
     private LayoutInflater mLayou;
     private int temp = 0;
@@ -59,7 +58,7 @@ public class CommissionAdapter extends BaseAdapter {
         return datas.size();
     }
 
-    public void addMore(List<CommissionsBean.ResultBean.DatasBean> data) {
+    public void addMore(List<CommissionsBean.ResultBean> data) {
         this.datas.addAll(data);
         notifyDataSetChanged();
     }
@@ -333,10 +332,10 @@ public class CommissionAdapter extends BaseAdapter {
     class OnClick implements View.OnClickListener {
         private ImageView imageView;
         private LinearLayout linearLayout;
-        private CommissionsBean.ResultBean.DatasBean resultBean;
+        private CommissionsBean.ResultBean resultBean;
 
 
-        public OnClick(CommissionsBean.ResultBean.DatasBean resultBean, ImageView imageView, LinearLayout linearLayout) {
+        public OnClick(CommissionsBean.ResultBean resultBean, ImageView imageView, LinearLayout linearLayout) {
             this.imageView = imageView;
             this.linearLayout = linearLayout;
             this.resultBean = resultBean;
@@ -388,7 +387,7 @@ public class CommissionAdapter extends BaseAdapter {
         }
     }
 
-    private void getDepositDetails(final CommissionsBean.ResultBean.DatasBean resultBean, final String step) {
+    private void getDepositDetails(final CommissionsBean.ResultBean resultBean, final String step) {
         HttpParams httpParams = new HttpParams();
         httpParams.put("user_id", SharedPreferencesHelps.getUserID());
         httpParams.put("commossion_id", resultBean.getId() + "");
@@ -413,41 +412,38 @@ public class CommissionAdapter extends BaseAdapter {
 
     }
 
-    private void jsonParse(String json, CommissionsBean.ResultBean.DatasBean resultBean, String step) {
+    private void jsonParse(String json, CommissionsBean.ResultBean resultBean, String step) {
+
         try {
-            JSONObject jsonObject = new JSONObject(json);
-            if ((jsonObject.getInt("code")) == 0 || jsonObject.get("code").equals("0")) {
-                ToasShow.showToastCenter(mContext, jsonObject.getString("msg"));
-                return;
-            } else {
-                if ((jsonObject.getInt("code")) == 1) {
+            Gson gson = new Gson();
+            InvoiceDetailBean detailBean = gson.fromJson(json, InvoiceDetailBean.class);
+            if (detailBean.getCode().equals("1")) {
+                InvoiceDetailBean.ResultBean rb = detailBean.getResult();
 
-                    Gson gson = new Gson();
-                    InvoiceDetailBean detailBean = gson.fromJson(json, InvoiceDetailBean.class);
-                    InvoiceDetailBean.ResultBean rb = detailBean.getResult();
+                Bundle bun = new Bundle();
+                bun.putSerializable("bean", rb);
 
-                    Bundle bun = new Bundle();
-                    bun.putSerializable("bean", rb);
-                    bun.putString("for", jsonObject.getJSONObject("result").getString("for"));
-
-
-                    if (step.equals("1")) {
-                        bun.putString("status", resultBean.getOne_invoice_status() + "");
-                    } else if (step.equals("2")) {
-                        bun.putString("status", resultBean.getTwo_invoice_status() + "");
-                    } else {
-                        bun.putString("status", resultBean.getThree_invoice_status() + "");
-                    }
-
-                    ActivitySkip.forward(CommissionActivity.commissionActivity, InvoiceActivity.class, bun);
+                if (step.equals("1")) {
+                    bun.putString("status", resultBean.getOne_invoice_status() + "");
+                } else if (step.equals("2")) {
+                    bun.putString("status", resultBean.getTwo_invoice_status() + "");
+                } else {
+                    bun.putString("status", resultBean.getThree_invoice_status() + "");
                 }
 
+                ActivitySkip.forward(CommissionActivity.commissionActivity, InvoiceActivity.class, bun);
+
+            } else {
+                ToasShow.showToastCenter(mContext, detailBean.getMsg());
+                return;
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
         } catch (NullPointerException e) {
             e.printStackTrace();
+        } catch (JsonSyntaxException e) {
+            e.printStackTrace();
         }
+
+
     }
 
     public class ViewHoler {
@@ -456,7 +452,7 @@ public class CommissionAdapter extends BaseAdapter {
         private RelativeLayout commissionRel, rlFirstCommisstion, rlSecondCommisstion, rlThirdCommisstion;
         private LinearLayout commissionLinear;
         private ImageView commissionRightImageView, moreImageView;
-        public CommissionsBean.ResultBean.DatasBean resultBean;
+        public CommissionsBean.ResultBean resultBean;
         private View firstView, secondView, thirdView;
 
     }

@@ -19,6 +19,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawableRight="@mipmap/trangle_up"
             android:gravity="center"
             android:text="ID"
             android:textColor="@color/white"
@@ -29,6 +30,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.6"
+            android:drawableRight="@mipmap/trangle_up"
             android:gravity="center"
             android:text="@string/housetype"
             android:textColor="@color/white"
@@ -39,6 +41,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawableRight="@mipmap/trangle_up"
             android:gravity="center"
             android:text="@string/scale_tab_prop"
             android:textColor="@color/white"
@@ -97,110 +100,13 @@
             android:visibility="gone"/>
     </RelativeLayout>
 
-    <LinearLayout
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/productde_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="@color/redyellow">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:paddingBottom="@dimen/padding_margin_4"
-                android:paddingTop="@dimen/padding_margin_4">
+        android:layout_alignParentBottom="true"/>
 
 
-                <TextView
-                    android:id="@+id/tvIntroduce"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/introtool"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/jieshao"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"/>
-
-                <TextView
-                    android:id="@+id/tvVideo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/videotool"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/video"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"/>
-
-                <TextView
-                    android:id="@+id/tvOrder"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/shopping"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/reserver"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"
-                    android:visibility="gone"/>
-
-                <TextView
-                    android:id="@+id/tvFloor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/floorstool"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/floorphoto"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"/>
-
-                <TextView
-                    android:id="@+id/tvContract"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/contracttool"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/contract"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"/>
-
-                <TextView
-                    android:id="@+id/tvFile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:alpha="0.5"
-                    android:drawablePadding="@dimen/padding_margin_4"
-                    android:drawableTop="@mipmap/othertool"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/padding_margin_4"
-                    android:text="@string/file"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/tv_size_10"/>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
 </LinearLayout>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search_edit_bac">
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_margin_14">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/order"/>
+
+                <TextView
+                    android:id="@+id/tvOrderDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_margin_10"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_15"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_14"
+                android:text="@string/order_info"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_15"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/search_edit_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/orde_num"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvOrderNum"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/type"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvtype"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14"
+                >
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/available_for_firb"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvFirb"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/sale"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvSale"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                android:id="@+id/rlRecus"
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/custome"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvCus"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/co_people"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReason"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                android:id="@+id/rlRecusAddress"
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/cus_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvCusAdd"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                android:id="@+id/rlReLawyer"
+                style="@style/MatchWrap"
+
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cuslawyer"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvLawyer"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvReLawyer"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/tv_size_12"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                android:id="@+id/rlReGoal"
+                style="@style/MatchWrap"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/buyhousetention"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvGoal"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/setting_bac"/>
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:layout_marginBottom="@dimen/padding_margin_20"
+                android:background="@color/white"
+                android:padding="@dimen/padding_margin_14">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/price"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    style="@style/WrapWrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/read"
+                    android:textSize="@dimen/tv_size_12"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+
+    <TextView
+        android:id="@+id/tvComplete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_margin_40"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:layout_marginRight="@dimen/padding_margin_10"
+        android:background="@color/redyellow"
+        android:gravity="center"
+        android:text="@string/complete"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+</RelativeLayout>

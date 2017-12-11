@@ -8,7 +8,7 @@ android {
         applicationId "com.yd.org.sellpopularizesystem"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 20171206
+        versionCode 20171210
         versionName "1.11.0"
 
         //个推配置文件

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/menu/menu_picker.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/menu/menu_picker.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/menu/menu_preview.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/menu/menu_preview.xml"
+    }
+]

@@ -26,7 +26,6 @@ import com.yd.org.sellpopularizesystem.R;
 import com.yd.org.sellpopularizesystem.activity.HomeActivity;
 import com.yd.org.sellpopularizesystem.fragment.HomeFragment;
 import com.yd.org.sellpopularizesystem.javaBean.MyUserInfo;
-import com.yd.org.sellpopularizesystem.javaBean.ProductDetailBean;
 import com.zhouyou.http.EasyHttp;
 import com.zhouyou.http.cache.converter.SerializableDiskConverter;
 
@@ -42,7 +41,7 @@ import javax.net.ssl.SSLSession;
 
 public class BaseApplication extends Application {
     public static BaseApplication mApp;
-    private ProductDetailBean.ResultBean prs;
+    //private ProductDetailBean.ResultBean prs;
     private static MainHandler handler;
     private int is_firb, firb_number;
     private static Context mContext;
@@ -300,13 +299,13 @@ public class BaseApplication extends Application {
     }
 
 
-    public ProductDetailBean.ResultBean getPrs() {
-        return prs;
-    }
-
-    public void setPrs(ProductDetailBean.ResultBean prs) {
-        this.prs = prs;
-    }
+//    public ProductDetailBean.ResultBean getPrs() {
+//        return prs;
+//    }
+//
+//    public void setPrs(ProductDetailBean.ResultBean prs) {
+//        this.prs = prs;
+//    }
 
 
     public int getIs_firb() {

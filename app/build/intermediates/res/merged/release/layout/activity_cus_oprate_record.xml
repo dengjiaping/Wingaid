@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rlContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        style="@style/MatchMatch"
+        android:background="@color/white">
+
+        <include layout="@layout/sliding_listview_layout"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvDes"
+        style="@style/WrapWrap"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/padding_margin_35"
+        android:text="@string/noeoi"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/tv_size_15"
+        android:visibility="gone"/>
+</RelativeLayout>

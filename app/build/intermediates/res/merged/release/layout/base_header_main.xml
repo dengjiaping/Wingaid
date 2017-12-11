@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             style="@style/MatchWrap">
+
+    <LinearLayout
+        android:id="@+id/titleViewParent_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/scale_tab5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/backLinearLayout"
+                style="@style/MatchMatch"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/wback"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_tv_size"/>
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/padding_margin_6"
+            android:layout_weight="5"
+            android:background="@drawable/button_bac3"
+            android:drawableLeft="@mipmap/searchsmall"
+            android:drawablePadding="@dimen/padding_margin_2"
+            android:gravity="center_vertical"
+            android:hint="@string/scale_search"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="@dimen/padding_margin_4"
+            android:singleLine="true"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/tv_size_12"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/rightSearchLinearLayout"
+                style="@style/MatchMatch"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/searchgraybt"/>
+
+
+            <TextView
+                android:id="@+id/rightTitle"
+                style="@style/MatchMatch"
+                android:gravity="center"
+                android:text="title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_15"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvSelect"
+                style="@style/WrapWrap"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_bac"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_margin_4"
+                android:paddingLeft="@dimen/padding_margin_10"
+                android:paddingRight="@dimen/padding_margin_10"
+                android:paddingTop="@dimen/padding_margin_4"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_15"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/gray_circle_shape"
+                android:scaleType="centerInside"
+                android:src="@mipmap/share"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

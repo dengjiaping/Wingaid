@@ -1,23 +1,23 @@
 #Internal package file, do not edit.
-#Thu Dec 07 10:19:44 CST 2017
-2.base=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/assets/debug
-0.path=agreement .doc
+#Mon Dec 11 16:56:07 CST 2017
+2.base=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/assets/debug
+0.path=province_data.xml
 2.baseType=DIRECTORY
-3.base=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/assets/debug
+3.base=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/assets/debug
 2.set=ASSET
-1.path=AgreementEN.html
-4.base=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/assets/debug
+1.path=agreement .doc
+4.base=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/assets/debug
 count=5
-2.path=AgreementCN.html
+2.path=nation.xml
 4.set=ASSET
-3.path=nation.xml
+3.path=AgreementEN.html
 3.baseType=DIRECTORY
 1.set=ASSET
-4.path=province_data.xml
+4.path=AgreementCN.html
 1.baseType=DIRECTORY
-0.base=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/assets/debug
+0.base=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
 3.set=ASSET
-1.base=/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/assets/debug
+1.base=/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/assets/debug
 4.baseType=DIRECTORY
 0.set=ASSET

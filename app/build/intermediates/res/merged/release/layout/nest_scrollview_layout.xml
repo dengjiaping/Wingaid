@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_margin_10"
+        android:paddingTop="@dimen/padding_margin_10">
+
+        <LinearLayout
+            android:id="@+id/llAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@mipmap/building"/>
+
+            <TextView
+                android:id="@+id/tvBuildingNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/padding_margin_30"
+                android:layout_marginTop="-15dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_margin_4"
+                android:paddingRight="@dimen/padding_margin_4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_08"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/padding_margin_16"
+                android:gravity="center_horizontal"
+                android:text="@string/all_building"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvHotSale"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/padding_margin_10"
+                android:drawableTop="@mipmap/hotsale"
+                android:gravity="center"
+                android:text="@string/hot_sale"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/tv_size_15"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvLookHouse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/padding_margin_16"
+            android:drawableTop="@mipmap/position"
+            android:gravity="center"
+            android:text="@string/map_house"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/tv_size_15"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_margin_6"
+        android:background="@color/search_edit_bac"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_margin_10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/house_suggest"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_15"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/padding_margin_8"
+            android:drawableRight="@mipmap/viewmore"
+            android:text="@string/view_more"
+            android:textSize="@dimen/tv_size_15"/>
+    </RelativeLayout>
+</LinearLayout>

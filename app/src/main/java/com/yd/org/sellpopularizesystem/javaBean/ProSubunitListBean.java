@@ -214,6 +214,17 @@ public class ProSubunitListBean extends Domine {
             private String product_childs_name;
             private String product_childs_description;
 
+            public String getSortLetters() {
+                return sortLetters;
+            }
+
+            public void setSortLetters(String sortLetters) {
+                this.sortLetters = sortLetters;
+            }
+
+            private String sortLetters;
+
+
             public int getProduct_childs_id() {
                 return product_childs_id;
             }

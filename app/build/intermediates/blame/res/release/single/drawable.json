@@ -1,0 +1,698 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_click.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_click.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/checkbut_radiobutton_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/checkbut_radiobutton_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/setting.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/setting.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/gray_circle_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/gray_circle_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_click_back_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_top.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/homegray.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/homegray.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/dash_line.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/dash_line.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/sdudycheck_radiobutton_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/sdudycheck_radiobutton_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/listview_item_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/listview_item_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/nav_tabset_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/nav_tabset_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/editbac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/editbac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/bg_svprogresshuddefault.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/bg_svprogresshuddefault.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/socialize_banner_module.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/socialize_banner_module.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/radiobutton.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/radiobutton.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_bac3.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_bac3.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/container_dropshadow.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/container_dropshadow.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/checkbox_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/nav_tabmessage_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/nav_tabmessage_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/ic_download_pressed.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/ic_download_pressed.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_comeoi_mid_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_comeoi_mid_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/textview_noright.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/textview_noright.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_back.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_back.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tabhomeunselect.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tabhomeunselect.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/edittext_yuyue_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/edittext_yuyue_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/actionbar_back_indicator.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/actionbar_back_indicator.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/seekbar_style.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/seekbar_style.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_dialog_progress.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/base_square.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/base_square.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/study_checkradio.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/study_checkradio.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_seek_thumb_pressed.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_pressed.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/homeblue.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/homeblue.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_bottom_bg.9.png",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_bg.9.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_click_error_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_error_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/eoi_item.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/eoi_item.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rb_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rb_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/cbtextcolor_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/cbtextcolor_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/a_customloading_drawable.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/a_customloading_drawable.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_bac4.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_bac4.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tab_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tab_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_comeoi_left_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_comeoi_left_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/commission_rbtextcolor_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/commission_rbtextcolor_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/stroke.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/stroke.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/bg_shape_customdialog.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/bg_shape_customdialog.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tabmeselect.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tabmeselect.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/icon_gcoding.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/icon_gcoding.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_loading.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_loading.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/cbselected.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/cbselected.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/radiobutton_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/radiobutton_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/spinner_76_outer_holo.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/spinner_76_outer_holo.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/radiotextcolor_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/radiotextcolor_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tabmeunselect.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tabmeunselect.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/design_password_eye.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_click_pause_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_pause_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/messageblue.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/messageblue.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_bottom_seek_thumb.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/pop_button_upcircle_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/pop_button_upcircle_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tab_info_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tab_info_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/studycheck_butbac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/studycheck_butbac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/actionbar_background.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/actionbar_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/text_indicator.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/drawable/text_indicator.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/isread.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/isread.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_dialog_progress_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_dialog_progress_bg.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/actionbar_btn_pressed.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/actionbar_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/actionbar_btn.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/actionbar_btn.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/pop_button_downcircle_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/pop_button_downcircle_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/notific.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/notific.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_seek_thumb_normal.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_seek_thumb_normal.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/spinner_76_inner_holo.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/spinner_76_inner_holo.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_back6.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_back6.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/bg_full_image.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/bg_full_image.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/ic_full_image_failed.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/ic_full_image_failed.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/commission_rb_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/commission_rb_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_click_play_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_play_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/edittext_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/edittext_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/comeoi_rbright_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/comeoi_rbright_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_right.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/loginbut_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/loginbut_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_back5.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_back5.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/addpopbac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/addpopbac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_bottom_progress.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_progress.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_left.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/circle_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/bg_item_sel.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/bg_item_sel.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/study_rad.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/study_rad.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/messagegray.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/messagegray.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/list_item_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/drawable/list_item_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/ic_download_normal.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/ic_download_normal.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/pop_button_bac.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/pop_button_bac.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/sidebar_background.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/sidebar_background.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/cb_normal.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/cb_normal.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/cbcomtextcolor_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/cbcomtextcolor_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/custom_info_bubble.9.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/custom_info_bubble.9.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_click_back_tiny_selector.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_click_back_tiny_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_left_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_left_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/ic_download.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/ic_download.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_bottom_seek_progress.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_bottom_seek_progress.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/textview_right.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/textview_right.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/comeoi_rbleft_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/comeoi_rbleft_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0-beta.1.aar/2bd1afbc0368b15b8689076941454d94/res/drawable/default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/divider.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/divider.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/progress_large_holo.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/progress_large_holo.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/nav_tabhome_selector.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/nav_tabhome_selector.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/settinggray.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/settinggray.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/study_view.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/study_view.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c095b83dd38007bcd3f82e527b649c0e/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tabtextcolor_select.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tabtextcolor_select.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/actionbar_btn_normal.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/actionbar_btn_normal.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/checkbox_company.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/checkbox_company.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_title_bg.9.png",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_title_bg.9.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button7.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button7.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_right_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_right_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/rectange_comeoi_right_shape.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/rectange_comeoi_right_shape.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/bg_overlay_gradient.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/bg_overlay_gradient.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/icon.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/button_bac2.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/button_bac2.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/examination_checkradio.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/examination_checkradio.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/selector_pickerview_btn.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/drawable/selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/tabmessage.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/drawable/tabmessage.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/drawable/jc_volume_progress_bg.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/drawable/jc_volume_progress_bg.xml"
+    }
+]

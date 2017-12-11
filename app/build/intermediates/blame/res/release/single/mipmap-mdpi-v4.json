@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_action_discard.png",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/photopicker/build/intermediates/bundles/release/res/mipmap-mdpi-v4/ic_action_discard.png"
+    }
+]

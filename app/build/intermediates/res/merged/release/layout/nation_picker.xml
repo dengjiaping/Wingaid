@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              style="@style/MatchWrap"
+              android:background="@color/setting_bac"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/padding_margin_10">
+
+
+    <RelativeLayout
+        style="@style/MatchWrap"
+        android:background="@color/search_edit_bac">
+
+
+        <com.yd.org.sellpopularizesystem.myView.SearchEditText
+            android:id="@+id/etNationSearch"
+            style="@style/editTextStyle"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout style="@style/MatchMatch">
+
+        <ListView
+            android:id="@+id/lvNation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#000000"
+            android:divider="#e3e3e3"
+            android:dividerHeight="1.0dp"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:scrollingCache="false"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+</LinearLayout>

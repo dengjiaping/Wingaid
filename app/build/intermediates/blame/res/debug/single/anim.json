@@ -1,35 +1,39 @@
 [
     {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_exit.xml"
+    },
+    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/picker_panel_bottom_down.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/anim/picker_panel_bottom_down.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/reverse_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/reverse_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/push_left_in.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/push_left_in.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_out_bottom.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_out_bottom.xml"
     },
     {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/left_to_right_out.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/left_to_right_out.xml"
+    },
+    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_out_top.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_out_top.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_in_top.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svslide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/left_to_right_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/left_to_right_out.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svfade_out_center.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svfade_out_center.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
@@ -44,32 +48,8 @@
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/collapse_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_left_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/push_left_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_top.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/push_right_out.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/push_right_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/btn_click_alpha_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/btn_click_alpha_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/out_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/out_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/collapse_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/collapse_anim.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/reverse_anim.xml",
@@ -80,20 +60,16 @@
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/umeng_socialize_slide_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_out_bottom.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/layout_animation.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/layout_animation.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_out_from_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/umeng_socialize_slide_out_from_bottom.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svfade_in_center.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svfade_in_center.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_right_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/push_right_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_slide_in_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
@@ -108,312 +84,16 @@
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/btn_click_alpha_anim.xml"
     },
     {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/out_anim.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/out_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_out_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svslide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_right_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/push_right_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/reverse_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/reverse_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/expand_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/expand_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/start_fullscreen.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/start_fullscreen.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/custom_item_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/custom_item_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/dialog_enter.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_in_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svslide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/alpha_launch_ui.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/alpha_launch_ui.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/expand_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/expand_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/dialog_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/dialog_enter.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/picker_panel_bottom_up.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/anim/picker_panel_bottom_up.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_in_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/shrink_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/shrink_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_in_top.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svslide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/btn_click_scale_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/btn_click_scale_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/downtoup_in_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/downtoup_in_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/alpha_launch_ui.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/alpha_launch_ui.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/start_fullscreen.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/start_fullscreen.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/shrink_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/shrink_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/enter_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/enter_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/custom_item_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/custom_item_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/out_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/out_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/custom_item_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/custom_item_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_in_top.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svfade_out_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svfade_out_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_out_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svslide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/alpha_launch_ui.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/alpha_launch_ui.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_left_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/push_left_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svfade_out_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svfade_out_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/push_left_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/push_left_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/umeng_socialize_slide_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/left_to_right_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/left_to_right_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_right_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/push_right_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/downtoup_in_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/downtoup_in_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/enter_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/enter_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svfade_out_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svfade_out_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/picker_panel_bottom_up.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/anim/picker_panel_bottom_up.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/layout_animation.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/layout_animation.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svfade_in_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svfade_in_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/btn_click_scale_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/btn_click_scale_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_right_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/push_right_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/umeng_socialize_slide_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/rotating.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/rotating.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/start_fullscreen.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/start_fullscreen.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_out.xml",
@@ -424,188 +104,88 @@
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/downtoup_in_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/layout_animation.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/layout_animation.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_slide_out_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svfade_in_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svfade_in_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_snackbar_in.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_in.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_dialog_scale_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_left_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/push_left_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/quit_fullscreen.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/quit_fullscreen.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_dialog_scale_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/expand_anim.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/expand_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/right_to_left_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/right_to_left_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_in_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svslide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/umeng_socialize_slide_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/picker_panel_bottom_down.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/anim/picker_panel_bottom_down.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/push_left_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/push_left_out.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/dialog_enter.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/right_to_left_in.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/right_to_left_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_dialog_scale_out.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/push_left_out.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/push_left_out.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/quit_fullscreen.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/quit_fullscreen.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/collapse_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/collapse_anim.xml"
-    },
-    {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/enter_anim.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/enter_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_in_bottom.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/push_right_in.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/push_right_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/rotating.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/rotating.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/pickerview_slide_out_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_out_top.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/svslide_out_top.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/alpha_launch_ui.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/alpha_launch_ui.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/picker_panel_bottom_down.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/pickerui-1.0.1.aar/af83f6b9bb2ff11d35851c687f591bfd/res/anim/picker_panel_bottom_down.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_out_from_bottom.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/umeng_socialize_slide_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_slide_in_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/dialog_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svslide_out_top.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svslide_out_top.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/start_fullscreen.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/start_fullscreen.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/right_to_left_in.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/right_to_left_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/shrink_anim.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/shrink_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/layout_animation.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/layout_animation.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/dialog_enter.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/dialog_exit.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/svfade_in_center.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/svfade_in_center.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/quit_fullscreen.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/jiecaovideoplayer-5.5.4.aar/b190fe989856b84497c62500225f712b/res/anim/quit_fullscreen.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/shrink_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/shrink_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_dialog_scale_out.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/left_to_right_out.xml",
-        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/src/main/res/anim/left_to_right_out.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/rotating.xml",
@@ -616,23 +196,19 @@
         "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/btn_click_scale_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/expand_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/expand_anim.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/custom_item_anim.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/custom_item_anim.xml"
     },
     {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/pickerview_dialog_scale_in.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.4.aar/8f98b279776e51e4565a92a357406702/res/anim/pickerview_dialog_scale_in.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/btn_click_alpha_anim.xml",
-        "source": "/Users/e-dot/Documents/e-dot/Crm/SellPopularizeSystem/app/src/main/res/anim/btn_click_alpha_anim.xml"
-    },
-    {
-        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/SellPopularizeSystem/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5c5512f07f985bb0628874fe7fa10f81/res/anim/design_fab_out.xml"
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/svslide_in_top.xml",
+        "source": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/src/main/res/anim/svslide_in_top.xml"
     },
     {
         "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/e-dot/Documents/e-dot/WingaidPro/Wingaid/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/e-dot/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/bdbf6136eebee74cc06d5988b7f7e958/res/anim/abc_grow_fade_in_from_bottom.xml"
     }
 ]

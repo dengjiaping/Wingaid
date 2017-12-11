@@ -250,6 +250,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="right"
                     android:minLines="2"
+                    android:text="Mactand victoria Pty ltd\nSuite 702/5 Rider Blvd Rhodes NSW 2138"
                     android:textColor="@color/black"
                     android:textSize="@dimen/tv_size_12"/>
 
@@ -277,6 +278,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right"
+                    android:text="45 604 414 235"
                     android:textColor="@color/black"
                     android:textSize="@dimen/tv_size_12"/>
 
@@ -304,6 +306,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right"
+                    android:text="02-9736-2888"
                     android:textColor="@color/black"
                     android:textSize="@dimen/tv_size_12"/>
 
@@ -387,19 +390,59 @@
 
             </LinearLayout>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/invoice_back"
-                android:orientation="vertical"
-                android:paddingBottom="@dimen/padding_margin_14"
-                android:paddingTop="@dimen/padding_margin_14">
+                android:layout_marginBottom="@dimen/padding_margin_6"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_margin_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABN GST registered:"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/tv_size_12"/>
+
+                <TextView
+                    android:id="@+id/tvAbnRegisterd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/tv_size_12"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_margin_6"
+                android:background="@color/search_edit_bac"
+                android:paddingBottom="@dimen/padding_margin_6"
+                android:paddingLeft="@dimen/padding_margin_20"
+                android:paddingTop="@dimen/padding_margin_6"
+                android:text="Commission"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_size_15"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/padding_margin_4"
                     android:layout_marginRight="@dimen/padding_margin_10"
+                    android:layout_marginTop="@dimen/padding_margin_6"
                     android:orientation="horizontal"
                     android:paddingLeft="@dimen/padding_margin_20">
 
@@ -420,28 +463,6 @@
 
 
                 </LinearLayout>
-
-
-            </LinearLayout>
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/search_edit_bac"
-                android:paddingBottom="@dimen/padding_margin_6"
-                android:paddingLeft="@dimen/padding_margin_20"
-                android:paddingTop="@dimen/padding_margin_6"
-                android:text="Commission"
-                android:textColor="@color/black"
-                android:textSize="@dimen/tv_size_15"/>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:orientation="vertical">
 
 
                 <LinearLayout
@@ -466,7 +487,6 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:gravity="right"
-                        android:text="10%"
                         android:textColor="@color/black"
                         android:textSize="@dimen/tv_size_12"/>
 
@@ -494,35 +514,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="right"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/tv_size_12"/>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/padding_margin_6"
-                    android:layout_marginRight="@dimen/padding_margin_10"
-                    android:layout_marginTop="@dimen/padding_margin_6"
-                    android:orientation="horizontal"
-                    android:paddingLeft="@dimen/padding_margin_20">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ABN GST registered:"
-                        android:textColor="@color/gray"
-                        android:textSize="@dimen/tv_size_12"/>
-
-                    <TextView
-                        android:id="@+id/tvAbnRegisterd"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="right"
-                        android:text="Yes"
                         android:textColor="@color/black"
                         android:textSize="@dimen/tv_size_12"/>
 
@@ -692,6 +683,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right"
+                    android:text="$00000"
                     android:textColor="@color/black"
                     android:textSize="@dimen/tv_size_12"/>
 
@@ -818,7 +810,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lineSpacingMultiplier="1.5"
-                    android:text="@string/deposit_declare"
                     android:textColor="@color/black"
                     android:textSize="@dimen/tv_size_12"/>
 

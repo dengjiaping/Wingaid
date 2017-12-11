@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlFirb"
+    style="@style/MatchMatch">
+
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:layout_marginLeft="@dimen/padding_margin_10"
+            android:layout_marginRight="@dimen/padding_margin_10"
+            android:background="@drawable/base_square"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btUnknown"
+                style="@style/MatchWrap"
+                android:background="@drawable/base_square"
+                android:text="@string/unknow"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/search_edit_bac" />
+
+            <Button
+                android:id="@+id/btSure"
+                style="@style/MatchWrap"
+                android:background="@drawable/base_square"
+                android:text="@string/yes"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/search_edit_bac"
+                />
+
+            <Button
+                android:id="@+id/btFalse"
+                style="@style/MatchWrap"
+                android:background="@drawable/base_square"
+                android:text="@string/no"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/tv_size_15" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

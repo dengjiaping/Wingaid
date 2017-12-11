@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_study_detaila"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.yd.org.sellpopularizesystem.viewpage.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="@dimen/padding_margin_10"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:scaleType="centerInside"
+        android:src="@mipmap/backbtcircle" />
+
+
+    <LinearLayout
+        android:id="@+id/viewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/padding_margin_4"
+        android:background="@drawable/study_view"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+
+</RelativeLayout>

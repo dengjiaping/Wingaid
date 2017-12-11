@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/saleRecprdRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scale_tab5"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/project"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/time_long"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_12"/>
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/base_listview"/>
+
+
+</LinearLayout>

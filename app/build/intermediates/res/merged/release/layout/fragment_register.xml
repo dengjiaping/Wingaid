@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_margin_10">
+
+        <RadioGroup
+            android:id="@+id/radioId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radio_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableLeft="@drawable/isread"
+                android:drawablePadding="@dimen/padding_margin_10"
+                android:text="@string/referral"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/radio_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/isread"
+                android:drawablePadding="@dimen/padding_margin_10"
+                android:text="@string/sale"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <com.yd.org.sellpopularizesystem.myView.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/search_edit_bac"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/userView"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+                android:id="@+id/referralLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/recode_hint"/>
+
+                <EditText
+                    android:id="@+id/recommendIdEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/input_recode"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/xingshi"/>
+
+                <EditText
+                    android:id="@+id/familyNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/real_urname_hint"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/mingzi"/>
+
+                <EditText
+                    android:id="@+id/lastNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/realname_hint"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+
+            <LinearLayout
+                android:id="@+id/userEnLinaer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/englishname"/>
+
+                <EditText
+                    android:id="@+id/enNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/en_hint"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/userEnView"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/telnum"/>
+
+                <EditText
+                    android:id="@+id/phoneEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/tel_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/emailacc"/>
+
+                <EditText
+                    android:id="@+id/regsterEmailEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/registeremail_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailSubject"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/password"/>
+
+                <EditText
+                    android:id="@+id/passwordEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/hintpass"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+                <ImageView
+                    android:id="@+id/showPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="@dimen/padding_margin_10"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/showpass"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+
+            <LinearLayout
+                android:id="@+id/llConfirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/xinghao"
+                    android:padding="@dimen/padding_margin_10"
+                    android:text="@string/sure_password"/>
+
+                <EditText
+                    android:id="@+id/surePasswordEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/sure_password_en"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_margin_20"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/setting_bac"
+                    android:textSize="@dimen/tv_size_15"/>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:background="@color/shallow_gray"/>
+
+
+
+            <TextView
+                android:id="@+id/regsterText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_margin_10"
+                android:layout_marginRight="@dimen/padding_margin_10"
+                android:layout_marginTop="@dimen/padding_margin_20"
+                android:background="#EE781F"
+                android:gravity="center"
+                android:padding="@dimen/padding_margin_10"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_size_15"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+    </com.yd.org.sellpopularizesystem.myView.BounceScrollView>
+
+
+</LinearLayout>

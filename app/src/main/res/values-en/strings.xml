@@ -1,7 +1,6 @@
 <resources>
 
     <string name="app_name">Wingaid</string>
-    <string name="app_name_beta">Wingaid beta</string>
     <string name="pull_to_refresh">down Refresh</string>
     <string name="release_to_refresh">Release the refresh immediately</string>
     <string name="refreshing">Refresh...</string>
@@ -724,6 +723,8 @@
     <string name="complete_my_address">Please complete my address</string>
     <string name="complete_information">Please complete my bank information</string>
     <string name="company_information">Please complete your company information</string>
+    <string name="default_com">Default</string>
+    <string name="booking">预定中</string>
 
 </resources>
 

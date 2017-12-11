@@ -719,6 +719,8 @@
     <string name="refused_time">Time:</string>
     <string name="confirmed">confirmed</string>
     <string name="confirmed_time">Time:</string>
+    <string name="default_com">Default</string>
+    <string name="booking">预定中</string>
 
 </resources>
 

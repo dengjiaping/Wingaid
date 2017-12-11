@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/MatchWrap"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/questionTitle"
+            style="@style/MatchWrap"
+            android:layout_toLeftOf="@+id/ivFlag"
+            android:layout_centerVertical="true"
+            android:lineSpacingExtra="3dp"
+            android:lineSpacingMultiplier="1.5"/>
+
+        <ImageView
+            android:id="@+id/ivFlag"
+            style="@style/WrapWrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_margin_20"
+            android:layout_marginLeft="@dimen/padding_margin_4"
+            android:src="@mipmap/incorrecticonx" />
+
+
+    </RelativeLayout>
+
+    <com.yd.org.sellpopularizesystem.myView.ChildListView
+        android:layout_marginBottom="@dimen/padding_margin_10"
+        android:listSelector="@color/white"
+        android:id="@+id/itemListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_margin_20"
+        android:layout_marginRight="@dimen/padding_margin_20"
+        android:divider="@color/white" />
+
+
+</LinearLayout>
