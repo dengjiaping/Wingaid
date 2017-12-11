@@ -262,8 +262,6 @@ public class ScaleActivity extends BaseActivity implements PullToRefreshLayout.O
                 } else {
                     Bundle bundle = new Bundle();
                     bundle.putSerializable("bean", item);
-                    bundle.putString("productName", item.getProduct_name());
-                    bundle.putString("productId", item.getProduct_id() + "");
                     ActivitySkip.forward(ScaleActivity.this, ProductItemDetailActivity.class, bundle);
                 }
             }

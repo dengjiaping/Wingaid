@@ -204,7 +204,6 @@ public class MapActivity extends BaseActivity implements AMap.OnMarkerClickListe
                 if(productName.equals(proName)){
                     proId=productData.get(i).getProduct_id();
                     Bundle bundle=new Bundle();
-                    bundle.putString("productName",proName);
                     bundle.putSerializable("bean", productData.get(i));
                     ActivitySkip.forward(MapActivity.this,ProductItemDetailActivity.class,bundle);
                 }

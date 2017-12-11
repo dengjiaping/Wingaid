@@ -12,7 +12,6 @@ import com.yd.org.sellpopularizesystem.javaBean.MyUserInfo;
  * 银行卡信息
  */
 public class BankActivity extends BaseActivity {
-
     private EditText accountNameEd;
     private EditText accountNumberEd;
     private EditText bankNameEd;

@@ -102,8 +102,6 @@ public class ProjectPromotionActivity extends BaseActivity {
 
                     Bundle bundle = new Bundle();
                     bundle.putSerializable("bean", item);
-                    bundle.putString("productName", item.getProduct_name());
-                    bundle.putString("productId", item.getProduct_id() + "");
                     ActivitySkip.forward(ProjectPromotionActivity.this, ProductItemDetailActivity
                             .class, bundle);
                 }

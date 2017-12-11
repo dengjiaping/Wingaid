@@ -64,6 +64,8 @@ public class CommissionActivity extends FragmentActivity {
             commissonLinear.setVisibility(View.GONE);
         } else {
             commissonLinear.setVisibility(View.VISIBLE);
+            //以前版本,新版本改掉
+            commissonLinear.setVisibility(View.GONE);
         }
 
         //返回
@@ -95,15 +97,20 @@ public class CommissionActivity extends FragmentActivity {
     private void initViewPage() {
         List<Fragment> fragments = new ArrayList<Fragment>();
         //佣金类型 / optional default 0 / 0:所有佣金 1:个人佣金 2： 领导拥金
-        if (SharedPreferencesHelps.getType() == 2) {
-            leaderFragment = CommissionFragment.getInstnce(2);
-            fragments.add(leaderFragment);
-        } else {
-            saleFragment = CommissionFragment.getInstnce(1);
-            leaderFragment = CommissionFragment.getInstnce(2);
-            fragments.add(saleFragment);
-            fragments.add(leaderFragment);
-        }
+//        if (SharedPreferencesHelps.getType() == 2) {
+//            leaderFragment = CommissionFragment.getInstnce(2);
+//            fragments.add(leaderFragment);
+//        } else {
+//            saleFragment = CommissionFragment.getInstnce(1);
+//            leaderFragment = CommissionFragment.getInstnce(2);
+//            fragments.add(saleFragment);
+//            fragments.add(leaderFragment);
+//        }
+
+        //以前版本
+        saleFragment = CommissionFragment.getInstnce(1);
+        fragments.add(saleFragment);
+
 
         adapter = new FragAdapter(getSupportFragmentManager(), fragments);
         vpCommission.setAdapter(adapter);

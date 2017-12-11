@@ -38,7 +38,6 @@ import com.yd.org.sellpopularizesystem.application.ExtraName;
 import com.yd.org.sellpopularizesystem.application.ViewHolder;
 import com.yd.org.sellpopularizesystem.javaBean.CustomBean;
 import com.yd.org.sellpopularizesystem.javaBean.EOIPayBean;
-import com.yd.org.sellpopularizesystem.javaBean.EoilistBean;
 import com.yd.org.sellpopularizesystem.javaBean.ImageContent;
 import com.yd.org.sellpopularizesystem.javaBean.ProSubunitListBean;
 import com.yd.org.sellpopularizesystem.javaBean.ProductDetailBean;
@@ -69,23 +68,14 @@ public class ProductSubunitListActivity extends BaseActivity {
     private Button btViewDetail, btRemain, btLineup, btCancel;
     private int pos;
     private RelativeLayout rlPop;
-    private TextView tvPrice, tvNoInfo, tvIntroduce, tvVideo, tvFloor, tvContract, tvFile;
+    private TextView tvPrice, tvNoInfo, tvIntroduce, tvVideo, tvOrder, tvFloor, tvContract, tvFile, tvArea, tvHouseType, tvLocation;
     private ListView lvHouseDetail;
     private ImageView ivSearch;
     private View mView;
-    private List<ProSubunitListBean.ResultBean.PropertyBean> data = new ArrayList<>();
+    private List<ProSubunitListBean.ResultBean.PropertyBean> allDates = new ArrayList<>();
     private CommonAdapter adapter;
-    //private Object bean;
-    //private ProductListBean.ResultBean.ChildsBean childBean;
     private CustomePopuWindow mCustomePopuWindow;
-    private String bedRoomNum;
-    private String bathRoomNum = "";
-    private String carSpace = "";
-    // private String product_id;
-    private String string = "";
     private String page = "1";
-    //从产品中点击预订跳转标志
-    // private String flag = "";
     private ProductDetailBean.ResultBean prs;
     private Bundle bund = new Bundle();
     //筛选
@@ -95,8 +85,6 @@ public class ProductSubunitListActivity extends BaseActivity {
     private String strHouseType;
     private String strNum;
     private List<ImageContent> imgContents = new ArrayList<ImageContent>();
-    private List<EoilistBean.ResultBean> eoiList = new ArrayList<>();
-    private boolean isSequence = false;
 
     //EOI充值
 
@@ -110,6 +98,8 @@ public class ProductSubunitListActivity extends BaseActivity {
     private static final int REQUEST_CAMERA_CODE = 10;
 
     private ProductListBean.ResultBean mResultBean;
+    private int priceTemp = 0, areaTemp = 0, houseTemp = 0, locationTemp = 0;
+
 
     @Override
     protected int setContentView() {
@@ -121,52 +111,32 @@ public class ProductSubunitListActivity extends BaseActivity {
     public void initView() {
 
         mResultBean = (ProductListBean.ResultBean) getIntent().getSerializableExtra("key");
+        prs = (ProductDetailBean.ResultBean) getIntent().getSerializableExtra("prs");
         setTitle(mResultBean.getProduct_name() + "");
         getViews();
+        controlColor();
         getListData();
-//        product_id = (String) bundle.get("productId");
-//        flag = (String) bundle.get("pidatopsla");
 
-        //       prs = (ProductDetailBean.ResultBean) bundle.getSerializable("prs");
-//        if (flag != null && flag.equals("maptopsla")) {
-//            string = (String) bundle.get("title");
-//            setTitle(string);
-//            getListData();
-//
-//
-//        }
-//        if (prs == null) {
-//            //获取产品详情
-//            getItemProductDetail();
-//        } else {
-//            controlColor();
-//        }
-        //  if (flag != null && flag.equals("pidatopsla")) {
-        //    string = (String) bundle.get("title");
-
-        //}
-//        if (bean != null) {
-//            if (bean instanceof List) {//点击查看所有传递过来的集合对象
-//                String proName = bundle.getString("productName");
-//                setTitle(proName);
-//                getListData();
-//            } else {//点击单个item传递过来的对象
-//                childBean = (ProductListBean.ResultBean.ChildsBean) bean;
-//                bedRoomNum = childBean.getBedroom();
-//                product_id = (String) bundle.get("productId");
-//                string = bundle.getString("productName");
-//                setTitle(string);
-//                getListData();
-//            }
-//        }
     }
 
     private void getViews() {
         setRightTitle(R.string.select, mOnClickListener);
         ivSearch = getViewById(R.id.rightSearchLinearLayout);
         ivSearch.setVisibility(View.GONE);
+        //价格排序
         tvPrice = getViewById(R.id.tvPrice);
         tvPrice.setOnClickListener(mOnClickListener);
+        //面积排序
+        tvArea = getViewById(R.id.tvArea);
+        tvArea.setOnClickListener(mOnClickListener);
+        //面积
+        tvHouseType = getViewById(R.id.tvHouseType);
+        tvHouseType.setOnClickListener(mOnClickListener);
+        //id
+        tvLocation = getViewById(R.id.tvLocation);
+        tvLocation.setOnClickListener(mOnClickListener);
+
+
         lvHouseDetail = getViewById(R.id.lvHouseDetail);
         tvIntroduce = getViewById(R.id.tvIntroduce);
         tvIntroduce.setOnClickListener(mOnClickListener);
@@ -178,6 +148,10 @@ public class ProductSubunitListActivity extends BaseActivity {
         tvContract.setOnClickListener(mOnClickListener);
         tvFile = getViewById(R.id.tvFile);
         tvFile.setOnClickListener(mOnClickListener);
+
+
+        tvOrder = getViewById(R.id.tvOrder);
+        tvOrder.setVisibility(View.GONE);
 
         mCustomePopuWindow = new CustomePopuWindow(ProductSubunitListActivity.this);
         mView = mCustomePopuWindow.getContentView();
@@ -194,17 +168,19 @@ public class ProductSubunitListActivity extends BaseActivity {
 
     private void initOptionData() {
         //筛选卧室,浴室,车库
-        houseTypes.add(getString(R.string.bedroom));
-        houseTypes.add(getString(R.string.bathroom));
-        houseTypes.add(getString(R.string.carport));
+        houseTypes.add(getString(R.string.nolimit));
+        houseTypes.add(getString(R.string.roomone));
+        houseTypes.add(getString(R.string.roomtwo));
+        houseTypes.add(getString(R.string.roomthree));
+        houseTypes.add(getString(R.string.roomfour));
+        houseTypes.add(getString(R.string.fiveroom));
+
         numbers.add(getString(R.string.nolimit));
-        //筛选数据
-        for (int i = 1; i < 10; i++) {
-            numbers.add(String.valueOf(i));
-            if (i != 9) {
-                numbers.add(String.valueOf(i + 0.5));
-            }
-        }
+        numbers.add(getString(R.string.issaling));
+        numbers.add(getString(R.string.hadsaled));
+        numbers.add(getString(R.string.booking));
+
+
     }
 
     private void initOptionsPickerView() {
@@ -212,66 +188,103 @@ public class ProductSubunitListActivity extends BaseActivity {
                 OptionsPickerView.OnOptionsSelectListener() {
                     @Override
                     public void onOptionsSelect(int options1, int options2, int options3, View v) {
+                        //一级
                         strHouseType = (String) houseTypes.get(options1);
-                        strNum = numbers.get(options2).equals(getString(R.string.nolimit)) ? "" :
-                                (String) numbers.get(options2);
-                        if (strHouseType.equals(getString(R.string.bedroom))) {
-                            bedRoomNum = strNum;
-                            bathRoomNum = "";
-                            carSpace = "";
-                        } else if (houseTypes.get(options1).equals(getString(R.string.bathroom))) {
-                            bedRoomNum = "";
-                            bathRoomNum = strNum;
-                            carSpace = "";
-                        } else if (houseTypes.get(options1).equals(getString(R.string.carport))) {
-                            carSpace = strNum;
-                            bedRoomNum = "";
-                            bathRoomNum = "";
-                        }
-                        List<ProSubunitListBean.ResultBean.PropertyBean> filterList = findAllByPro(data,
-                                strHouseType, strNum);
-                        if (filterList.size() > 0) {
-                            adapter.setmDatas(filterList);
-                            adapter.notifyDataSetChanged();
-                        } else {
-                            ToasShow.showToastCenter(ProductSubunitListActivity.this, getString(R.string
-                                    .nomatchdata));
-                        }
+                        //二级
+                        strNum = (String) numbers.get(options2);
+                        List<ProSubunitListBean.ResultBean.PropertyBean> filterList = findAllByPro(allDates, strHouseType, strNum);
+                        adapter.setmDatas(filterList);
+                        adapter.notifyDataSetChanged();
+
                     }
-                }).setTitleColor(R.color.black).setCyclic(false, false, true).setSelectOptions(houseTypes
-                .indexOf(getString(R.string.bedroom)), numbers.indexOf(getString(R.string
-                .nolimit)));
+                }).setTitleColor(R.color.black)
+                .setCyclic(false, false, true)
+                .setSelectOptions(houseTypes.indexOf(getString(R.string.nolimit)), numbers.indexOf(getString(R.string.nolimit)));
         optionsPickerView = new OptionsPickerView(builder);
         optionsPickerView.setNPicker(houseTypes, numbers, null);
     }
 
 
     private List<ProSubunitListBean.ResultBean.PropertyBean> findAllByPro(List<ProSubunitListBean
-            .ResultBean.PropertyBean> data, String strHouseType, String strNum) {
+            .ResultBean.PropertyBean> dataList, String strHouseType, String strNum) {
         List<ProSubunitListBean.ResultBean.PropertyBean> filterList = new ArrayList<>();
-        if (strNum.equals("")) {
-            filterList.clear();
-            filterList.addAll(data);
-        } else {
-            for (int i = 0; i < data.size(); i++) {
-                if (strHouseType.equals(getString(R.string.bedroom))) {
-                    if (data.get(i).getBedroom().equals(strNum)) {
-                        filterList.add(data.get(i));
-                    }
-                }
-                if (strHouseType.equals(getString(R.string.bathroom))) {
-                    if (data.get(i).getBathroom().equals(strNum)) {
-                        filterList.add(data.get(i));
-                    }
-                }
-                if (strHouseType.equals(getString(R.string.carport))) {
-                    if (data.get(i).getCar_space().equals(strNum)) {
-                        filterList.add(data.get(i));
-                    }
+        List<ProSubunitListBean.ResultBean.PropertyBean> dates = new ArrayList<>();
+
+        for (int i = 0; i < dataList.size(); i++) {
+            //1:不限
+            if (strHouseType.equals(getString(R.string.nolimit))) {
+                filterList.add(dataList.get(i));
+            }
+
+            //1:一房
+            if (strHouseType.equals(getString(R.string.roomone))) {
+                if (dataList.get(i).getBedroom().equals("1")) {
+                    filterList.add(dataList.get(i));
                 }
             }
+            //1:二房
+            if (strHouseType.equals(getString(R.string.roomtwo))) {
+                if (dataList.get(i).getBedroom().equals("2")) {
+                    filterList.add(dataList.get(i));
+                }
+            }
+
+            //1:三房
+            if (strHouseType.equals(getString(R.string.roomthree))) {
+                if (dataList.get(i).getBedroom().equals("3")) {
+                    filterList.add(dataList.get(i));
+                }
+            }
+
+            //1:四房
+            if (strHouseType.equals(getString(R.string.roomfour))) {
+                if (dataList.get(i).getBedroom().equals("4")) {
+                    filterList.add(dataList.get(i));
+                }
+            }
+
+            //1:五房
+            if (strHouseType.equals(getString(R.string.fiveroom))) {
+                if (dataList.get(i).getBedroom().equals("5")) {
+                    filterList.add(dataList.get(i));
+                }
+            }
+
+
         }
-        return filterList;
+
+
+        //-------
+        for (int j = 0; j < filterList.size(); j++) {
+
+            //2:不限
+            if (strNum.equals(getString(R.string.nolimit))) {
+                dates.add(filterList.get(j));
+            }
+
+            //2:在售
+            if (strNum.equals(getString(R.string.issaling))) {
+                if (filterList.get(j).getIs_lock() == 0 && filterList.get(j).getIf_eoi() != 1) {
+                    dates.add(filterList.get(j));
+                }
+            }
+            //1:已售
+            if (strNum.equals(getString(R.string.hadsaled))) {
+                if (filterList.get(j).getIs_lock() == 1) {
+                    dates.add(filterList.get(j));
+                }
+            }
+
+            //1:预定中
+            if (strNum.equals(getString(R.string.booking))) {
+                if (filterList.get(j).getIf_eoi() == 1) {
+                    dates.add(filterList.get(j));
+                }
+            }
+
+        }
+
+        return dates;
     }
 
     //获取子单元列表数据
@@ -286,9 +299,9 @@ public class ProductSubunitListActivity extends BaseActivity {
                 .params("city", "")
                 .params("town", "")
                 .params("address", "")
-                .params("bedroom", bedRoomNum == null ? "" : bedRoomNum)
-                .params("bathroom", bathRoomNum)
-                .params("car_space", carSpace)
+                .params("bedroom", "")
+                .params("bathroom", "")
+                .params("car_space", "")
                 .params("has_study", "")
                 .params("ensuite", "")
                 .params("level", "")
@@ -334,22 +347,20 @@ public class ProductSubunitListActivity extends BaseActivity {
             Gson gson = new Gson();
             ProSubunitListBean pslb = gson.fromJson(s, ProSubunitListBean.class);
             if (pslb.getCode().equals("1")) {
-                data = pslb.getResult().getProperty();
+                allDates = pslb.getResult().getProperty();
             }
 
-            //按照价格排序
-            sortPriceLowToHigh(data);
             //找出eoi元素
-            for (int i = 0; i < data.size(); i++) {
-                if (data.get(i).getIf_eoi() == 1) {
-                    ProSubunitListBean.ResultBean.PropertyBean p = data.get(i);
-                    data.remove(i);
+            for (int i = 0; i < allDates.size(); i++) {
+                if (allDates.get(i).getIf_eoi() == 1) {
+                    ProSubunitListBean.ResultBean.PropertyBean p = allDates.get(i);
+                    allDates.remove(i);
                     //把eoi元素放在第一位
-                    data.add(0, p);
+                    allDates.add(0, p);
                 }
             }
 
-            if (data.size() > 0) {
+            if (allDates.size() > 0) {
                 tvNoInfo.setVisibility(View.GONE);
                 setAdapter();
             } else {
@@ -364,40 +375,9 @@ public class ProductSubunitListActivity extends BaseActivity {
 
     }
 
-    private void sortPriceLowToHigh(List<ProSubunitListBean.ResultBean.PropertyBean> data) {
-        Collections.sort(data, new Comparator<ProSubunitListBean.ResultBean.PropertyBean>() {
-            @Override
-            public int compare(ProSubunitListBean.ResultBean.PropertyBean o1, ProSubunitListBean
-                    .ResultBean.PropertyBean o2) {
-
-                try {
-                    if (Integer.parseInt(o1.getPrice().split("\\.")[0]) > Integer.parseInt
-                            (o2.getPrice().split("\\.")[0])) {
-                        return 1;
-                    }
-
-                    if (Integer.parseInt(o1.getPrice().split("\\.")[0]) == Integer.parseInt
-                            (o2.getPrice().split("\\.")[0])) {
-                        return 0;
-                    }
-                } catch (ArrayIndexOutOfBoundsException e) {
-                    e.printStackTrace();
-                } catch (NullPointerException e) {
-                    e.printStackTrace();
-                } catch (NumberFormatException e) {
-                    e.printStackTrace();
-                } catch (IllegalArgumentException e) {
-                    e.printStackTrace();
-                }
-
-
-                return -1;
-            }
-        });
-    }
 
     private void setAdapter() {
-        adapter = new CommonAdapter<ProSubunitListBean.ResultBean.PropertyBean>(this, data, R
+        adapter = new CommonAdapter<ProSubunitListBean.ResultBean.PropertyBean>(this, allDates, R
                 .layout.productdetaill_activity_listview_item) {
             @Override
             public void convert(ViewHolder holder, final ProSubunitListBean.ResultBean
@@ -517,26 +497,108 @@ public class ProductSubunitListActivity extends BaseActivity {
                     break;
                 //价格排序
                 case R.id.tvPrice:
-                    if (!isSequence) {
+                    if (priceTemp == 0) {
                         Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
                                 .this, R.mipmap.trangle_down);
                         drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
                                 .getMinimumHeight());
                         tvPrice.setCompoundDrawables(null, null, drawable, null);
-                        sortPriceHighToLow();
-                        isSequence = true;
+                        sortPriceHighToLow("Price");
+                        priceTemp = 1;
                     } else {
                         Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
                                 .this, R.mipmap.trangle_up);
                         drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
                                 .getMinimumHeight());
                         tvPrice.setCompoundDrawables(null, null, drawable, null);
+                        List<ProSubunitListBean.ResultBean.PropertyBean> lists = adapter.getmDatas();
+                        sortPriceLowToHigh(lists, "Price");
+                        adapter.notifyDataSetChanged();
+                        priceTemp = 0;
+                    }
+
+                    break;
+
+
+                //面积排序tvArea
+                case R.id.tvArea:
+
+                    if (areaTemp == 0) {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_down);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvArea.setCompoundDrawables(null, null, drawable, null);
+                        sortPriceHighToLow("Area");
+                        areaTemp = 1;
+                    } else {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_up);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvArea.setCompoundDrawables(null, null, drawable, null);
                         List<ProSubunitListBean.ResultBean.PropertyBean> lists = adapter
                                 .getmDatas();
-                        sortPriceLowToHigh(lists);
+                        sortPriceLowToHigh(lists, "Area");
                         adapter.notifyDataSetChanged();
-                        isSequence = false;
+                        areaTemp = 0;
                     }
+
+
+                    break;
+
+
+                //房型
+                case R.id.tvHouseType:
+
+                    if (houseTemp == 0) {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_down);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvHouseType.setCompoundDrawables(null, null, drawable, null);
+                        sortPriceHighToLow("House");
+                        houseTemp = 1;
+                    } else {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_up);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvHouseType.setCompoundDrawables(null, null, drawable, null);
+                        List<ProSubunitListBean.ResultBean.PropertyBean> lists = adapter
+                                .getmDatas();
+                        sortPriceLowToHigh(lists, "House");
+                        adapter.notifyDataSetChanged();
+                        houseTemp = 0;
+                    }
+
+
+                    break;
+
+
+                //ID
+                case R.id.tvLocation:
+
+                    if (locationTemp == 0) {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_down);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvLocation.setCompoundDrawables(null, null, drawable, null);
+                        sortPriceHighToLow("Location");
+                        locationTemp = 1;
+                    } else {
+                        Drawable drawable = ContextCompat.getDrawable(ProductSubunitListActivity
+                                .this, R.mipmap.trangle_up);
+                        drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable
+                                .getMinimumHeight());
+                        tvLocation.setCompoundDrawables(null, null, drawable, null);
+                        List<ProSubunitListBean.ResultBean.PropertyBean> lists = adapter.getmDatas();
+                        sortPriceLowToHigh(lists, "Location");
+                        adapter.notifyDataSetChanged();
+                        locationTemp = 0;
+                    }
+
 
                     break;
 
@@ -548,7 +610,7 @@ public class ProductSubunitListActivity extends BaseActivity {
                 //查看详情
                 case R.id.btViewDetail:
                     if (bund != null) {
-                        bund.putSerializable("item", data.get(pos));
+                        bund.putSerializable("item", allDates.get(pos));
                         ActivitySkip.forward(ProductSubunitListActivity.this,
                                 ProductSubItemDetailActivity.class, bund);
                         mCustomePopuWindow.dismiss();
@@ -557,7 +619,7 @@ public class ProductSubunitListActivity extends BaseActivity {
                 //预定
                 case R.id.btRemain:
                     if (bund != null) {
-                        bund.putSerializable("item", data.get(pos));
+                        bund.putSerializable("item", allDates.get(pos));
                         ActivitySkip.forward(ProductSubunitListActivity.this, ReserveActivity
                                 .class, bund);
                         mCustomePopuWindow.dismiss();
@@ -700,7 +762,7 @@ public class ProductSubunitListActivity extends BaseActivity {
         }
     };
 
-    private void sortPriceHighToLow() {
+    private void sortPriceHighToLow(final String type) {
         try {
 
             List<ProSubunitListBean.ResultBean.PropertyBean> lists = adapter.getmDatas();
@@ -709,15 +771,88 @@ public class ProductSubunitListActivity extends BaseActivity {
                 public int compare(ProSubunitListBean.ResultBean.PropertyBean o1, ProSubunitListBean
                         .ResultBean.PropertyBean o2) {
 
-                    if (Integer.parseInt(o2.getPrice().split("\\.")[0]) > Integer.parseInt
-                            (o1.getPrice().split("\\.")[0])) {
-                        return 1;
+
+                    if (type.equals("Price")) {
+                        if (Integer.parseInt(o2.getPrice().split("\\.")[0]) > Integer.parseInt
+                                (o1.getPrice().split("\\.")[0])) {
+                            return 1;
+                        }
+
+                        if (Integer.parseInt(o1.getPrice().split("\\.")[0]) == Integer.parseInt
+                                (o2.getPrice().split("\\.")[0])) {
+                            return 0;
+                        }
+                    } else if (type.equals("Area")) {
+                        if (o2.getCate_id() == 2) {
+                            if (Integer.parseInt(o2.getLand_size().split("\\.")[0]) > Integer.parseInt
+                                    (o1.getLand_size().split("\\.")[0])) {
+                                return 1;
+                            }
+
+                            if (Integer.parseInt(o1.getLand_size().split("\\.")[0]) == Integer.parseInt
+                                    (o2.getLand_size().split("\\.")[0])) {
+                                return 0;
+                            }
+                        } else {
+                            if (Integer.parseInt(o2.getBuilding_area().split("\\.")[0]) > Integer.parseInt
+                                    (o1.getBuilding_area().split("\\.")[0])) {
+                                return 1;
+                            }
+
+                            if (Integer.parseInt(o1.getBuilding_area().split("\\.")[0]) == Integer.parseInt
+                                    (o2.getBuilding_area().split("\\.")[0])) {
+                                return 0;
+                            }
+                        }
+
+                    } else if (type.equals("House")) {
+                        if (Integer.parseInt(o2.getBedroom()) > Integer.parseInt(o1.getBedroom())) {
+                            return 1;
+                        }
+
+                        if (Integer.parseInt(o1.getBedroom()) == Integer.parseInt(o2.getBedroom())) {
+                            return 0;
+                        }
+                    } else if (type.equals("Location")) {
+
+
+                        int ascii1 = 0;
+                        int ascii2 = 0;
+
+                        int number1 = 0;
+                        int number2 = 0;
+                        // 判断其ASCII码是否在65到90之间）
+                        if ((int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) >= 65 && (int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) <= 90) {
+                            ascii1 = (int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]);
+                            // number1 = Integer.parseInt(o2.getProduct_childs_unit_number().trim().substring(0, 1));
+                        } else {
+                            number1 = Integer.parseInt(o1.getProduct_childs_unit_number());
+                        }
+
+                        if ((int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) >= 65 && (int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) <= 90) {
+                            ascii2 = (int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]);
+                            // number2 = Integer.parseInt(o1.getProduct_childs_unit_number().trim().substring(0, 1));
+
+                        } else {
+                            number2 = Integer.parseInt(o2.getProduct_childs_unit_number());
+                        }
+
+
+                        // 从小到大排序
+                        if (number1 < number2) {
+                            return 1;
+                        } else if (number1 == number2) {
+                            // 如果两个都有字母，则判断顺序
+                            // 按ASCII码从小到大排列（即从A到Z排列）
+                            if (ascii1 < ascii2) {
+                                return 1;
+                            }
+                        }
+
+
                     }
 
-                    if (Integer.parseInt(o1.getPrice().split("\\.")[0]) == Integer.parseInt
-                            (o2.getPrice().split("\\.")[0])) {
-                        return 0;
-                    }
+
                     return -1;
                 }
             });
@@ -731,10 +866,122 @@ public class ProductSubunitListActivity extends BaseActivity {
             e.printStackTrace();
         } catch (IllegalStateException e) {
             e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
         }
 
 
     }
+
+
+    private void sortPriceLowToHigh(List<ProSubunitListBean.ResultBean.PropertyBean> data, final String type) {
+
+        try {
+
+            Collections.sort(data, new Comparator<ProSubunitListBean.ResultBean.PropertyBean>() {
+                @Override
+                public int compare(ProSubunitListBean.ResultBean.PropertyBean o1, ProSubunitListBean
+                        .ResultBean.PropertyBean o2) {
+
+
+                    if (type.equals("Price")) {
+
+                        if (Integer.parseInt(o1.getPrice().split("\\.")[0]) > Integer.parseInt
+                                (o2.getPrice().split("\\.")[0])) {
+                            return 1;
+                        }
+
+                        if (Integer.parseInt(o1.getPrice().split("\\.")[0]) == Integer.parseInt
+                                (o2.getPrice().split("\\.")[0])) {
+                            return 0;
+                        }
+                    } else if (type.equals("Area")) {
+                        if (o1.getCate_id() == 2) {
+                            if (Integer.parseInt(o1.getLand_size().split("\\.")[0]) > Integer.parseInt
+                                    (o2.getLand_size().split("\\.")[0])) {
+                                return 1;
+                            }
+
+                            if (Integer.parseInt(o1.getLand_size().split("\\.")[0]) == Integer.parseInt
+                                    (o2.getLand_size().split("\\.")[0])) {
+                                return 0;
+                            }
+                        } else {
+                            if (Integer.parseInt(o1.getBuilding_area().split("\\.")[0]) > Integer.parseInt
+                                    (o2.getBuilding_area().split("\\.")[0])) {
+                                return 1;
+                            }
+
+                            if (Integer.parseInt(o1.getBuilding_area().split("\\.")[0]) == Integer.parseInt
+                                    (o2.getBuilding_area().split("\\.")[0])) {
+                                return 0;
+                            }
+                        }
+
+                    } else if (type.equals("House")) {
+                        if (Integer.parseInt(o1.getBedroom()) > Integer.parseInt
+                                (o2.getBedroom())) {
+                            return 1;
+                        }
+
+                        if (Integer.parseInt(o1.getBedroom()) == Integer.parseInt
+                                (o2.getBedroom())) {
+                            return 0;
+                        }
+                    } else if (type.equals("Location")) {
+
+
+                        int ascii1 = 0;
+                        int ascii2 = 0;
+
+                        int number1 = 0;
+                        int number2 = 0;
+                        // 判断其ASCII码是否在65到90之间）
+                        if ((int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) >= 65 && (int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) <= 90) {
+                            ascii1 = (int) ((o2.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]);
+                        } else {
+                            number1 = Integer.parseInt(o2.getProduct_childs_unit_number());
+                        }
+
+                        if ((int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) >= 65 && (int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]) <= 90) {
+                            ascii2 = (int) ((o1.getProduct_childs_unit_number().trim().toUpperCase()).toCharArray()[0]);
+                        } else {
+                            number2 = Integer.parseInt(o1.getProduct_childs_unit_number());
+                        }
+
+
+                        // 从小到大排序
+                        if (number1 < number2) {
+                            return 1;
+                        } else if (number1 == number2) {
+                            // 如果两个都有字母，则判断顺序
+                            // 按ASCII码从小到大排列（即从A到Z排列）
+                            if (ascii1 < ascii2) {
+                                return 1;
+                            }
+                        }
+
+
+                    }
+
+                    return -1;
+                }
+            });
+        } catch (ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        } catch (IllegalStateException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
 
     private void showEoiPay() {
         if (eoiPayDialog == null) {
@@ -792,8 +1039,8 @@ public class ProductSubunitListActivity extends BaseActivity {
         HttpParams httpParams = new HttpParams();
         httpParams.put("user_id", SharedPreferencesHelps.getUserID());
         httpParams.put("customer_id", customer_id);
-        httpParams.put("product_id", data.get(pos).getProduct_id() + "");
-        httpParams.put("product_childs_id", data.get(pos).getProduct_childs_id() + "");
+        httpParams.put("product_id", allDates.get(pos).getProduct_id() + "");
+        httpParams.put("product_childs_id", allDates.get(pos).getProduct_childs_id() + "");
         httpParams.put("pay_method", payment_method);
 
 
@@ -852,83 +1099,34 @@ public class ProductSubunitListActivity extends BaseActivity {
     }
 
 
-//    private void getItemProductDetail() {
-//        EasyHttp.get(Contants.PRODUCT_DETAIL)
-//                .cacheMode(CacheMode.DEFAULT)
-//                .headers("Cache-Control", "max-age=0")
-//                .timeStamp(true).params("product_id", mResultBean.getProduct_id() + "")
-//                .params("user_id", SharedPreferencesHelps.getUserID())
-//                .execute(new SimpleCallBack<String>() {
-//                    @Override
-//                    public void onStart() {
-//                        super.onStart();
-//                        showDialog();
-//                    }
-//
-//                    @Override
-//                    public void onError(ApiException e) {
-//                        closeDialog();
-//                        Log.e("onError", "onError:" + e.getCode() + ";;" + e.getMessage());
-//                    }
-//
-//                    @Override
-//                    public void onSuccess(String json) {
-//                        Log.e("onSuccess", "json:" + json);
-//                        closeDialog();
-//
-//                        try {
-//
-//                            Gson gson = new Gson();
-//                            ProductDetailBean pdb = gson.fromJson(json, ProductDetailBean.class);
-//                            if (pdb.getCode().equals("1")) {
-//                                prs = pdb.getResult();
-//                                BaseApplication.getInstance().setPrs(prs);
-//                                controlColor();
-//
-//
-//                            }
-//                        } catch (JsonSyntaxException e) {
-//                            e.printStackTrace();
-//                        } catch (NullPointerException e) {
-//                            e.printStackTrace();
-//                        }
-//
-//
-//                    }
-//                });
-//
-//
-//    }
+    //控制控件颜色
+    private void controlColor() {
+        if (prs.getDescription_url() != null) {
+            tvIntroduce.setAlpha(1.0f);
+        }
+        if (prs.getVideo_url() != null) {
+            tvVideo.setAlpha(1.0f);
+        }
 
 
-//    //控制控件颜色
-//    private void controlColor() {
-//        if (prs.getDescription_url() != null) {
-//            tvIntroduce.setAlpha(1.0f);
-//        }
-//        if (prs.getVideo_url() != null) {
-//            tvVideo.setAlpha(1.0f);
-//        }
-//
-//
-//        if (prs.getFile_content() != null && prs.getFile_content().size() > 0) {
-//
-//            for (int i = 0; i < prs.getFile_content().size(); i++) {
-//                if (prs.getFile_content().get(i).getFile_type() == 1) {
-//                    tvFloor.setAlpha(1.0f);
-//                }
-//            }
-//
-//        }
-//
-//
-//        if (prs.getContract_url() != null && !prs.getContract_url().equals("")) {
-//            tvContract.setAlpha(1.0f);
-//        }
-//        if (prs.getFile_content() != null && prs.getFile_content().size() > 0) {
-//            tvFile.setAlpha(1.0f);
-//        }
-//    }
+        if (prs.getFile_content() != null && prs.getFile_content().size() > 0) {
+
+            for (int i = 0; i < prs.getFile_content().size(); i++) {
+                if (prs.getFile_content().get(i).getFile_type() == 1) {
+                    tvFloor.setAlpha(1.0f);
+                }
+            }
+
+        }
+
+
+        if (prs.getContract_url() != null && !prs.getContract_url().equals("")) {
+            tvContract.setAlpha(1.0f);
+        }
+        if (prs.getFile_content() != null && prs.getFile_content().size() > 0) {
+            tvFile.setAlpha(1.0f);
+        }
+    }
 
     @Override
     public void setListener() {
@@ -947,10 +1145,10 @@ public class ProductSubunitListActivity extends BaseActivity {
                 //销售可预订
                 if (SharedPreferencesHelps.getType() == 1) {
 
-                    if (data.get(pos).getIs_lock() == 1) {
+                    if (allDates.get(pos).getIs_lock() == 1) {
                         btRemain.setVisibility(View.GONE);
                         btLineup.setVisibility(View.GONE);
-                    } else if (data.get(pos).getIs_lock() == 0) {
+                    } else if (allDates.get(pos).getIs_lock() == 0) {
 
                         if (SharedPreferencesHelps.getProjectStatus().equals("old")) {
                             Log.e("TAG", "onItemClick: " + SharedPreferencesHelps
@@ -961,7 +1159,7 @@ public class ProductSubunitListActivity extends BaseActivity {
                         }
                         btLineup.setVisibility(View.GONE);
                     }
-                    if (data.get(pos).getIf_eoi() == 1) {
+                    if (allDates.get(pos).getIf_eoi() == 1) {
                         btRemain.setVisibility(View.GONE);
                         btLineup.setVisibility(View.VISIBLE);
                     }

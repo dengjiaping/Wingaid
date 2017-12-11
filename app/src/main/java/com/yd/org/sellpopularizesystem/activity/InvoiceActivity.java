@@ -1,3 +1,4 @@
+
 package com.yd.org.sellpopularizesystem.activity;
 
 import android.graphics.drawable.ColorDrawable;
@@ -48,7 +49,7 @@ public class InvoiceActivity extends BaseActivity {
     private InvoiceDetailBean.ResultBean rb;
     private String status;
     private String moneyString;
-    private String forx;
+
 
     @Override
     protected int setContentView() {
@@ -90,7 +91,6 @@ public class InvoiceActivity extends BaseActivity {
             Bundle bundle = getIntent().getExtras();
             rb = (InvoiceDetailBean.ResultBean) bundle.getSerializable("bean");
             status = bundle.getString("status");
-            forx = bundle.getString("for");
             setInfo();
         }
 
@@ -112,31 +112,33 @@ public class InvoiceActivity extends BaseActivity {
                 tvStatus.setText("Reject");
             }
 
-            tvAbn.setText(rb.getAbn());
-            tvPhone.setText(rb.getPhone());
-            tvAddress.setText(rb.getAddress());
+            tvAbn.setText(rb.getAbn() + "");
+            tvPhone.setText(rb.getPhone() + "");
+            tvAddress.setText(rb.getAddress() + "");
             tvDate.setText(MyUtils.date2String("yyyy/MM/dd", Long.parseLong(String.valueOf(rb.getDate()) + "000")));
-            tvFor.setText(forx);
-            tvDescription.setText(rb.getDescription());
-            tvAmountIncl.setText(rb.getAmount());
-            tvSubtotal.setText(rb.getSubtotal());
+            tvFor.setText(rb.getFors() + "");
+            tvDescription.setText(rb.getDescription() + "");
+            tvAmountIncl.setText(rb.getAmount() + "");
+            tvSubtotal.setText(rb.getSubtotal() + "");
             tvAbnRegisterd.setText(rb.getIs_gst() == 1 ? "No" : "Yes");
-            tvOther.setText(rb.getOther());
-            tvTotal.setText(rb.getTotal());
-            tvAccountName.setText(rb.getAccount_name());
+            tvOther.setText(rb.getOther() + "");
+            tvTotal.setText(rb.getTotal() + "");
+            tvAccountName.setText(rb.getAccount_name() + "");
             tvFinalDes.setText(Html.fromHtml(getResources().getString(R.string.deposit_declare)));
-            tvBsb.setText(rb.getBsb());
-            tvAccountNum.setText(rb.getAccount_number());
+            tvBsb.setText(rb.getBsb() + "");
+            tvAccountNum.setText(rb.getAccount_number() + "");
             if (!status.equals("1")) {
                 getViewById(R.id.invoiceBottomLinear).setVisibility(View.GONE);
             } else {
                 getViewById(R.id.invoiceBottomLinear).setVisibility(View.VISIBLE);
             }
+            tvGst.setText(rb.getGst() + "");
 
-
-            tvOtherGST.setText("");
-            tvSubtotalGST.setText("");
+            tvOtherGST.setText(rb.getOther_gst() + "");
+            tvSubtotalGST.setText(rb.getSubtotal_other() + "");
         } catch (NullPointerException e) {
+            e.printStackTrace();
+        } catch (NumberFormatException e) {
             e.printStackTrace();
         }
     }
@@ -175,7 +177,7 @@ public class InvoiceActivity extends BaseActivity {
             moneyString = "";
         }
         HttpParams httpParams = new HttpParams();
-        httpParams.put("invoice_id", rb.getInvoice_id());//发票编号
+        httpParams.put("invoice_id", rb.getInvoice_id() + "");//发票编号
         httpParams.put("status", flag);//2：同意  3：拒绝
         httpParams.put("sales_submit_amount", moneyString);//销售提交金额
         httpParams.put("reject_reason", memoString);//拒绝原因
